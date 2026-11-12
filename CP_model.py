@@ -15,10 +15,10 @@ global A  # set of all antennas
 
 # defining parameters 
 global A_r  # set of all antennas that can serve request r
-global S_r  # set of all starting times for request r visibility window
-global E_r # set of all ending times for request r visibility window
-global Q_r  # set of all turnaround times for request r
-global P_r  # set of processing duration times for request r
+global S_ra  # set of all starting times for request r, antenna a visibility window 
+global E_ra # set of all ending times for request r, antenna a visibility window
+global Q_ra  # set of all turnaround times for request r and antenna a
+global P_ra  # set of processing duration times for request r and antenna a
 
 def cp_model(problem_data:str, write_results_to_file:bool = False, Timelimit = 60*30, Workers = 4, combine_data:bool = False):
     '''
@@ -30,10 +30,10 @@ def cp_model(problem_data:str, write_results_to_file:bool = False, Timelimit = 6
     data_dict = read_instance(problem_data,combine_data)
     R = data_dict["R"] # list of all requests: idx:request number, value: request name/id
     A = data_dict["A"] # list of all antennas: idx:antenna number, value: antenna name/id
-    S_r = data_dict["S_r"] # same as above
-    E_r = data_dict["E_r"] # same as above
-    P_r = data_dict["P_r"] # same as above
-    Q_r = data_dict["Q_r"] # same as above
+    S_ra = data_dict["S_ra"] # same as above
+    E_ra = data_dict["E_ra"] # same as above
+    P_ra = data_dict["P_ra"] # same as above
+    Q_ra = data_dict["Q_ra"] # same as above
     A_r = data_dict["A_r"] # since we call A_r directly the idx is request idx (number) and the value is a list of candidate antenna idxs (ids)
 
     # defining CP model
@@ -43,9 +43,9 @@ def cp_model(problem_data:str, write_results_to_file:bool = False, Timelimit = 6
 
     I_ra = [] # optional interval variable for request r and antenna a
     for r in range(0,len(R),1):
-        req_list = []
-        for a in range(0,len(A),1):
-            req_list.append(model.interval_var(optional = True,name = "I_{}_{}".format(r+1,a+1), start = [S_r[r]- Q_r[r], E_r[r] - P_r[r] - Q_r[r]], end = [S_r[r]+P_r[r],E_r[r]], length = P_r[r] + Q_r[r])) # adding optional interval variable for request r and antenna a with start, end, and length constraints
+        req_list = [None]* len(A)
+        for a in A_r[r]:
+            req_list[a] = model.interval_var(optional = True,name = "I_{}_{}".format(R[r],A[a]), start = [S_ra[r][a]- Q_ra[r][a], E_ra[r][a] - P_ra[r][a] - Q_ra[r][a]], end = [S_ra[r][a]+P_ra[r][a],E_ra[r][a]], length = P_ra[r][a] + Q_ra[r][a]) # adding optional interval variable for request r and antenna a with start, end, and length constraints
         I_ra.append(req_list)
 
     B_r = [] # alternative interval variable for request r

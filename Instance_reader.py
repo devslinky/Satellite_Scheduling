@@ -55,46 +55,56 @@ def read_instance(file_number, combine:bool = False):
     processing_times = df["duration"]
     turnaround_times = df["turnaround_time"]
 
-    # for each unique request in requests, record window start time, end time, processing time and turnaround time
     unique_requests = requests.unique().tolist()
     unique_antennas = antennas.unique().tolist()
-    unique_window_start_times = []
-    unique_window_end_times = []
-    unique_processing_times = []
-    unique_turnaround_times = []
+
+    antenna_idx = {antenna_id:idx for idx,antenna_id in enumerate(unique_antennas)}
+    request_idx = {request_id:idx for idx,request_id in enumerate(unique_requests)}
+
+    # get candidate antennas per request
     set_candidate_antennas = []
-
-    antenna_idx = {antenna_id: idx for idx, antenna_id in enumerate(unique_antennas)}
-
     for request in unique_requests:
         rows = df[df["request_id"] == request]
-        win_start_times = set(rows["window_start"])
-        win_end_times = set(rows["window_end"])
-        proces_times = set(rows["duration"])
-        turn_times = set(rows["turnaround_time"])
 
         # get set of candidate antennas that can serve each request
         antennas = rows["antenna_id"].unique()
         set_candidate_antennas.append([antenna_idx[a] for a in antennas])
 
-        # each request should have a unique window start time, end time, processing time and turnaround time regardless of the antenna processing it
-        assert len(win_start_times) == 1, f"expected single unique window start time across all candidate antennas, got {len(win_start_times)}"
-        assert len(win_end_times) == 1, f"expected single unique window end time across all candidate antennas, got {len(win_end_times)}"
-        assert len(proces_times) == 1, f"expected single processing time across all candidate antennas, got {len(proces_times)}"
-        assert len(turn_times) == 1, f"expected single unique turnaround time across all candidate antennas, got {len(turn_times)}"
+        assert len(set_candidate_antennas[-1]) <= len(unique_antennas), f"expected at most {len(unique_antennas)} rows, instead got {len(set_candidate_antennas[-1])} rows " # each request can be processed by atmost A antennas (where A is the caridnality of the set of all antennas)
 
-        unique_window_start_times.append(list(win_start_times)[0])
-        unique_window_end_times.append(list(win_end_times)[0])
-        unique_processing_times.append(list(proces_times)[0])
-        unique_turnaround_times.append(list(turn_times)[0])
+
+    # initialize lists
+    a = len(unique_requests)
+    b = len(unique_antennas)
+    S_ra = [[None] * b for _ in range(a)]
+    E_ra = [[None] * b for _ in range(a)]
+    P_ra = [[None] * b for _ in range(a)]
+    Q_ra = [[None] * b for _ in range(a)]
+
+    set_request_antenna_pairs = []
+
+    for row in df.itertuples(index=False):
+        a = request_idx[row.request_id]
+        b = antenna_idx[row.antenna_id]
+        S_ra[a][b] = int(row.window_start)
+        E_ra[a][b] = int(row.window_end)
+        P_ra[a][b] = int(row.duration)
+        Q_ra[a][b] = int(row.turnaround_time)
+
+        set_request_antenna_pairs.append((a,b))
+
+    num_unique_request_antenna_pairs = len(set(set_request_antenna_pairs))
+
+    # assumption is that each row is a unique request-antenna pair
+    assert num_unique_request_antenna_pairs == len(df), f"each row is not a unique request-antenna pair, recieved {num_unique_request_antenna_pairs} unique request_antenna pairs for {len(df)} total satellite scheduling records " 
 
 
     return {
         "R": unique_requests,
         "A": unique_antennas,
-        "S_r": unique_window_start_times,
-        "E_r": unique_window_end_times,
-        "P_r": unique_processing_times,
-        "Q_r": unique_turnaround_times,
+        "S_ra": S_ra,
+        "E_ra": E_ra,
+        "P_ra": P_ra,
+        "Q_ra": Q_ra,
         "A_r": set_candidate_antennas
     }
