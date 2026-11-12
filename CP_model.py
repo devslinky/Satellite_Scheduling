@@ -66,7 +66,7 @@ def cp_model(problem_data:str, write_results_to_file:bool = False, Timelimit = 6
     model.add(model.maximize(model.sum([model.presence_of(B_r[r]) for r in range(0,len(R),1)]))) # maximize the number of requests that are scheduled
 
     # solve model
-    my_params = CpoParameters(TimeLimit = Timelimit,Workers = Workers) # set time limit in seconds, workers
+    my_params = CpoParameters(TimeLimit = Timelimit,Workers = Workers, TimeMode = "ElapsedTime") # set time limit in seconds, workers
     result = model.solve(params = my_params) # solve the model with the specified parameters
 
     # getting model solving context
@@ -93,8 +93,11 @@ def write_results(result,solver_info,processor,cores,memory, problem_data,I_ra,R
         f.write("\n\n")
         if result.is_solution():
             f.write(f"Solution status: {result.get_solve_status()}\n")
-            f.write(f"Objective value: {result.get_objective_value()}\n")
+            f.write(f"Solution Objective value: {result.get_objective_values()}\n")
+            f.write(f"Best Proven Bound: {result.get_objective_bounds()}\n")
+            f.write(f"Objective gaps: {result.get_objective_gaps()}\n")
             f.write("\n\n")
+
             for r in range(0,len(R),1):
                 for a in A_r[r]:
                     value = result.get_var_solution(I_ra[r][a])

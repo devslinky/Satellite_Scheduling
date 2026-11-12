@@ -9,14 +9,14 @@ EffectiveWorkers: 4
 ExtractionTime: 0.00999999
 FailStatus: SearchStoppedByLimit
 IterativeDivingIdleTime: 0
-MemoryUsage: 50322189
+MemoryUsage: 50354602
 MultiPointIdleTime: 0
 NeighborhoodIdleTime: 0
 NumberOfAuxiliaryVariables: 0
 NumberOfBlackboxCalls: 0
 NumberOfBlackboxes: 0
-NumberOfBranches: 65313256
-NumberOfChoicePoints: 4941008
+NumberOfBranches: 66146106
+NumberOfChoicePoints: 5002230
 NumberOfConstraints: 341
 NumberOfConstraintsAdded: 0
 NumberOfConstraintsAggregated: 0
@@ -26,7 +26,7 @@ NumberOfCriteria: 1
 NumberOfEngineConstraints: 43
 NumberOfEngineVariables: 2069
 NumberOfErrors: 0
-NumberOfFails: 3183318
+NumberOfFails: 3221533
 NumberOfIntegerVariables: 0
 NumberOfIntervalVariables: 2063
 NumberOfPresolveTransformations: 0
@@ -37,7 +37,7 @@ NumberOfUnboundModelVariables: 0
 NumberOfUnboundModelVariablesInLogPeriod: 2
 NumberOfVariables: 2082
 NumberOfWarnings: 0
-PeakMemoryUsage: 50504589
+PeakMemoryUsage: 50537002
 PresolveTime: 0.00999999
 RestartIdleTime: 0
 SearchStatus: SearchStopped
@@ -50,7 +50,9 @@ Memory: 25769803776
 
 
 Solution status: Feasible
-Objective value: 313
+Solution Objective value: (313,)
+Best Proven Bound: (319,)
+Objective gaps: (0.0191693,)
 
 
  variable name: I_lf_1_INDI-A

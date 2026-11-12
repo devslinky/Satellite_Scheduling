@@ -37,20 +37,22 @@ NumberOfUnboundModelVariables: 0
 NumberOfUnboundModelVariablesInLogPeriod: 1538
 NumberOfVariables: 2264
 NumberOfWarnings: 0
-PeakMemoryUsage: 54943619
+PeakMemoryUsage: 53789619
 PresolveTime: 0.00999999
 RestartIdleTime: 0
 SearchStatus: SearchCompleted
 SearchStopCause: SearchHasNotBeenStopped
-SolveTime: 12.7
-TotalTime: 12.7
+SolveTime: 13.11
+TotalTime: 13.11
 Processor: arm
 Cores: 12
 Memory: 25769803776
 
 
 Solution status: Optimal
-Objective value: 296
+Solution Objective value: (296,)
+Best Proven Bound: (296,)
+Objective gaps: (0,)
 
 
  variable name: I_lf_1_BOSS-A
