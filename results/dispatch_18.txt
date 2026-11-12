@@ -1,0 +1,3742 @@
+Objective: 293
+UpperBound: 297
+NumberOfRequests: 297
+Iteration0GreedyObjective: 292
+Iteration0ImprovedObjective: 293
+BestIteration: 0
+Iterations: 201
+StopReason: NoImprovementLimit
+SolveTime: 0.538
+TimeLimit: 60
+MaxIterations: 1000
+MaxNoImprove: 200
+Seed: 0
+Processor: arm
+Cores: 8
+Memory: 8589934592
+
+
+Solution Objective value: (293,)
+Upper bound: 297
+
+
+ variable name: I_lf_1_BOSS-A variable start: 10 variable end: 46
+
+ variable name: I_lf_1_BOSS-B
+
+ variable name: I_lf_2_COOK-A variable start: 29 variable end: 63
+
+ variable name: I_lf_2_COOK-B
+
+ variable name: I_lf_3_BOSS-A
+
+ variable name: I_lf_3_BOSS-B variable start: 33 variable end: 68
+
+ variable name: I_lf_4_LION-A variable start: 39 variable end: 75
+
+ variable name: I_lf_4_LION-B
+
+ variable name: I_lf_5_PIKE-A variable start: 48 variable end: 84
+
+ variable name: I_lf_5_PIKE-B
+
+ variable name: I_lf_6_REEF-A variable start: 89 variable end: 126
+
+ variable name: I_lf_6_REEF-B
+
+ variable name: I_lf_7_LION-A
+
+ variable name: I_lf_7_LION-B variable start: 104 variable end: 137
+
+ variable name: I_lf_8_BOSS-A variable start: 110 variable end: 145
+
+ variable name: I_lf_8_BOSS-B
+
+ variable name: I_lf_9_HULA-A variable start: 116 variable end: 151
+
+ variable name: I_lf_9_HULA-B
+
+ variable name: I_lf_10_HULA-A
+
+ variable name: I_lf_10_HULA-B variable start: 131 variable end: 166
+
+ variable name: I_lf_11_INDI-A variable start: 133 variable end: 162
+
+ variable name: I_lf_11_INDI-B
+
+ variable name: I_lf_12_HULA-A
+
+ variable name: I_lf_12_HULA-B
+
+ variable name: I_lf_13_LION-A variable start: 147 variable end: 178
+
+ variable name: I_lf_13_LION-B
+
+ variable name: I_lf_14_PIKE-A
+
+ variable name: I_lf_14_PIKE-B variable start: 149 variable end: 185
+
+ variable name: I_lf_15_GUAM-A variable start: 172 variable end: 208
+
+ variable name: I_lf_15_GUAM-B
+
+ variable name: I_lf_16_PIKE-A variable start: 175 variable end: 208
+
+ variable name: I_lf_16_PIKE-B
+
+ variable name: I_lf_17_INDI-A
+
+ variable name: I_lf_17_INDI-B variable start: 195 variable end: 265
+
+ variable name: I_lf_18_COOK-A
+
+ variable name: I_lf_18_COOK-B variable start: 197 variable end: 232
+
+ variable name: I_lf_19_LION-A
+
+ variable name: I_lf_19_LION-B variable start: 200 variable end: 235
+
+ variable name: I_lf_20_GUAM-A
+
+ variable name: I_lf_20_GUAM-B variable start: 230 variable end: 305
+
+ variable name: I_lf_21_BOSS-A
+
+ variable name: I_lf_21_BOSS-B variable start: 240 variable end: 273
+
+ variable name: I_lf_22_HULA-A variable start: 242 variable end: 277
+
+ variable name: I_lf_22_HULA-B
+
+ variable name: I_lf_23_LION-A variable start: 243 variable end: 278
+
+ variable name: I_lf_23_LION-B
+
+ variable name: I_lf_24_HULA-A
+
+ variable name: I_lf_24_HULA-B variable start: 245 variable end: 280
+
+ variable name: I_lf_25_COOK-A variable start: 251 variable end: 284
+
+ variable name: I_lf_25_COOK-B
+
+ variable name: I_lf_26_LION-A
+
+ variable name: I_lf_26_LION-B variable start: 274 variable end: 309
+
+ variable name: I_lf_27_HULA-A variable start: 297 variable end: 329
+
+ variable name: I_lf_27_HULA-B
+
+ variable name: I_lf_28_LION-A variable start: 301 variable end: 331
+
+ variable name: I_lf_28_LION-B
+
+ variable name: I_lf_29_COOK-A
+
+ variable name: I_lf_29_COOK-B variable start: 330 variable end: 362
+
+ variable name: I_lf_30_GUAM-A variable start: 330 variable end: 364
+
+ variable name: I_lf_30_GUAM-B
+
+ variable name: I_lf_31_BOSS-A variable start: 339 variable end: 375
+
+ variable name: I_lf_31_BOSS-B
+
+ variable name: I_lf_32_HULA-A
+
+ variable name: I_lf_32_HULA-B variable start: 339 variable end: 374
+
+ variable name: I_lf_33_LION-A
+
+ variable name: I_lf_33_LION-B variable start: 341 variable end: 374
+
+ variable name: I_lf_34_LION-A variable start: 375 variable end: 412
+
+ variable name: I_lf_34_LION-B
+
+ variable name: I_lf_35_REEF-A
+
+ variable name: I_lf_35_REEF-B variable start: 382 variable end: 413
+
+ variable name: I_lf_36_HULA-A variable start: 406 variable end: 442
+
+ variable name: I_lf_36_HULA-B
+
+ variable name: I_lf_37_GUAM-A
+
+ variable name: I_lf_37_GUAM-B variable start: 408 variable end: 441
+
+ variable name: I_lf_38_HULA-A
+
+ variable name: I_lf_38_HULA-B variable start: 423 variable end: 455
+
+ variable name: I_lf_39_GUAM-A variable start: 429 variable end: 459
+
+ variable name: I_lf_39_GUAM-B
+
+ variable name: I_lf_40_BOSS-A
+
+ variable name: I_lf_40_BOSS-B variable start: 443 variable end: 475
+
+ variable name: I_lf_41_GUAM-A
+
+ variable name: I_lf_41_GUAM-B variable start: 446 variable end: 478
+
+ variable name: I_lf_42_LION-A
+
+ variable name: I_lf_42_LION-B variable start: 477 variable end: 510
+
+ variable name: I_lf_43_INDI-A variable start: 480 variable end: 515
+
+ variable name: I_lf_43_INDI-B
+
+ variable name: I_lf_44_BOSS-A variable start: 482 variable end: 512
+
+ variable name: I_lf_44_BOSS-B
+
+ variable name: I_lf_45_BOSS-A
+
+ variable name: I_lf_45_BOSS-B variable start: 492 variable end: 527
+
+ variable name: I_lf_46_BOSS-A variable start: 514 variable end: 548
+
+ variable name: I_lf_46_BOSS-B
+
+ variable name: I_lf_47_POGO-A variable start: 530 variable end: 561
+
+ variable name: I_lf_47_POGO-B
+
+ variable name: I_lf_47_POGO-C
+
+ variable name: I_lf_48_COOK-A variable start: 538 variable end: 574
+
+ variable name: I_lf_48_COOK-B
+
+ variable name: I_lf_49_BOSS-A
+
+ variable name: I_lf_49_BOSS-B variable start: 540 variable end: 574
+
+ variable name: I_lf_50_GUAM-A variable start: 545 variable end: 581
+
+ variable name: I_lf_50_GUAM-B
+
+ variable name: I_lf_51_POGO-A
+
+ variable name: I_lf_51_POGO-B variable start: 552 variable end: 588
+
+ variable name: I_lf_51_POGO-C
+
+ variable name: I_lf_52_POGO-A
+
+ variable name: I_lf_52_POGO-B
+
+ variable name: I_lf_52_POGO-C variable start: 570 variable end: 606
+
+ variable name: I_lf_53_POGO-A variable start: 578 variable end: 614
+
+ variable name: I_lf_53_POGO-B
+
+ variable name: I_lf_53_POGO-C
+
+ variable name: I_lf_54_BOSS-A variable start: 579 variable end: 614
+
+ variable name: I_lf_54_BOSS-B
+
+ variable name: I_lf_55_BOSS-A
+
+ variable name: I_lf_55_BOSS-B variable start: 580 variable end: 617
+
+ variable name: I_lf_56_INDI-A
+
+ variable name: I_lf_56_INDI-B variable start: 581 variable end: 615
+
+ variable name: I_lf_57_PIKE-A
+
+ variable name: I_lf_57_PIKE-B variable start: 590 variable end: 624
+
+ variable name: I_lf_58_GUAM-A
+
+ variable name: I_lf_58_GUAM-B variable start: 595 variable end: 629
+
+ variable name: I_lf_59_REEF-A variable start: 600 variable end: 632
+
+ variable name: I_lf_59_REEF-B
+
+ variable name: I_lf_60_POGO-A
+
+ variable name: I_lf_60_POGO-B variable start: 628 variable end: 663
+
+ variable name: I_lf_60_POGO-C
+
+ variable name: I_lf_61_REEF-A
+
+ variable name: I_lf_61_REEF-B variable start: 630 variable end: 664
+
+ variable name: I_lf_62_POGO-A
+
+ variable name: I_lf_62_POGO-B
+
+ variable name: I_lf_62_POGO-C variable start: 631 variable end: 663
+
+ variable name: I_lf_63_PIKE-A variable start: 639 variable end: 673
+
+ variable name: I_lf_63_PIKE-B
+
+ variable name: I_lf_64_BOSS-A variable start: 647 variable end: 681
+
+ variable name: I_lf_64_BOSS-B
+
+ variable name: I_lf_65_LION-A variable start: 650 variable end: 679
+
+ variable name: I_lf_65_LION-B
+
+ variable name: I_lf_66_POGO-A variable start: 654 variable end: 690
+
+ variable name: I_lf_66_POGO-B
+
+ variable name: I_lf_66_POGO-C
+
+ variable name: I_lf_67_LION-A
+
+ variable name: I_lf_67_LION-B variable start: 665 variable end: 700
+
+ variable name: I_lf_68_POGO-A
+
+ variable name: I_lf_68_POGO-B variable start: 671 variable end: 707
+
+ variable name: I_lf_68_POGO-C
+
+ variable name: I_lf_69_BOSS-A
+
+ variable name: I_lf_69_BOSS-B variable start: 680 variable end: 716
+
+ variable name: I_lf_70_INDI-A variable start: 690 variable end: 725
+
+ variable name: I_lf_70_INDI-B
+
+ variable name: I_lf_71_REEF-A variable start: 696 variable end: 730
+
+ variable name: I_lf_71_REEF-B
+
+ variable name: I_lf_72_POGO-A
+
+ variable name: I_lf_72_POGO-B
+
+ variable name: I_lf_72_POGO-C variable start: 701 variable end: 732
+
+ variable name: I_lf_73_POGO-A variable start: 725 variable end: 759
+
+ variable name: I_lf_73_POGO-B
+
+ variable name: I_lf_73_POGO-C
+
+ variable name: I_lf_74_POGO-A
+
+ variable name: I_lf_74_POGO-B variable start: 731 variable end: 766
+
+ variable name: I_lf_74_POGO-C
+
+ variable name: I_lf_75_HULA-A variable start: 738 variable end: 771
+
+ variable name: I_lf_75_HULA-B
+
+ variable name: I_lf_76_REEF-A
+
+ variable name: I_lf_76_REEF-B variable start: 742 variable end: 775
+
+ variable name: I_lf_77_LION-A variable start: 766 variable end: 802
+
+ variable name: I_lf_77_LION-B
+
+ variable name: I_lf_78_PIKE-A
+
+ variable name: I_lf_78_PIKE-B variable start: 782 variable end: 818
+
+ variable name: I_lf_79_HULA-A
+
+ variable name: I_lf_79_HULA-B variable start: 782 variable end: 816
+
+ variable name: I_lf_80_POGO-A
+
+ variable name: I_lf_80_POGO-B
+
+ variable name: I_lf_80_POGO-C variable start: 801 variable end: 831
+
+ variable name: I_lf_81_LION-A
+
+ variable name: I_lf_81_LION-B variable start: 814 variable end: 845
+
+ variable name: I_lf_82_POGO-A variable start: 831 variable end: 867
+
+ variable name: I_lf_82_POGO-B
+
+ variable name: I_lf_82_POGO-C
+
+ variable name: I_lf_83_GUAM-A variable start: 835 variable end: 869
+
+ variable name: I_lf_83_GUAM-B
+
+ variable name: I_lf_84_REEF-A variable start: 842 variable end: 877
+
+ variable name: I_lf_84_REEF-B
+
+ variable name: I_lf_85_POGO-A
+
+ variable name: I_lf_85_POGO-B variable start: 858 variable end: 895
+
+ variable name: I_lf_85_POGO-C
+
+ variable name: I_lf_86_GUAM-A
+
+ variable name: I_lf_86_GUAM-B variable start: 870 variable end: 935
+
+ variable name: I_lf_87_COOK-A
+
+ variable name: I_lf_87_COOK-B variable start: 884 variable end: 920
+
+ variable name: I_lf_88_POGO-A
+
+ variable name: I_lf_88_POGO-B
+
+ variable name: I_lf_88_POGO-C variable start: 901 variable end: 931
+
+ variable name: I_lf_89_LION-A variable start: 909 variable end: 943
+
+ variable name: I_lf_89_LION-B
+
+ variable name: I_lf_90_LION-A
+
+ variable name: I_lf_90_LION-B variable start: 909 variable end: 943
+
+ variable name: I_lf_91_HULA-A variable start: 914 variable end: 949
+
+ variable name: I_lf_91_HULA-B
+
+ variable name: I_lf_92_POGO-A variable start: 918 variable end: 952
+
+ variable name: I_lf_92_POGO-B
+
+ variable name: I_lf_92_POGO-C
+
+ variable name: I_lf_93_GUAM-A variable start: 936 variable end: 971
+
+ variable name: I_lf_93_GUAM-B
+
+ variable name: I_lf_94_INDI-A
+
+ variable name: I_lf_94_INDI-B variable start: 945 variable end: 978
+
+ variable name: I_lf_95_HULA-A
+
+ variable name: I_lf_95_HULA-B variable start: 946 variable end: 980
+
+ variable name: I_lf_96_BOSS-A variable start: 960 variable end: 985
+
+ variable name: I_lf_96_BOSS-B
+
+ variable name: I_lf_97_BOSS-A
+
+ variable name: I_lf_97_BOSS-B variable start: 969 variable end: 1005
+
+ variable name: I_lf_98_POGO-A
+
+ variable name: I_lf_98_POGO-B variable start: 972 variable end: 1004
+
+ variable name: I_lf_98_POGO-C
+
+ variable name: I_lf_99_POGO-A
+
+ variable name: I_lf_99_POGO-B
+
+ variable name: I_lf_99_POGO-C variable start: 974 variable end: 1010
+
+ variable name: I_lf_100_HULA-A variable start: 988 variable end: 1025
+
+ variable name: I_lf_100_HULA-B
+
+ variable name: I_lf_101_LION-A variable start: 1007 variable end: 1040
+
+ variable name: I_lf_101_LION-B
+
+ variable name: I_lf_102_HULA-A
+
+ variable name: I_lf_102_HULA-B variable start: 1014 variable end: 1049
+
+ variable name: I_lf_103_GUAM-A
+
+ variable name: I_lf_103_GUAM-B variable start: 1039 variable end: 1072
+
+ variable name: I_lf_104_COOK-A variable start: 1051 variable end: 1085
+
+ variable name: I_lf_104_COOK-B
+
+ variable name: I_lf_105_LION-A
+
+ variable name: I_lf_105_LION-B variable start: 1060 variable end: 1095
+
+ variable name: I_lf_106_POGO-A variable start: 1061 variable end: 1097
+
+ variable name: I_lf_106_POGO-B
+
+ variable name: I_lf_106_POGO-C
+
+ variable name: I_lf_107_POGO-A
+
+ variable name: I_lf_107_POGO-B variable start: 1071 variable end: 1104
+
+ variable name: I_lf_107_POGO-C
+
+ variable name: I_lf_108_POGO-A
+
+ variable name: I_lf_108_POGO-B
+
+ variable name: I_lf_108_POGO-C variable start: 1074 variable end: 1111
+
+ variable name: I_lf_109_HULA-A variable start: 1092 variable end: 1123
+
+ variable name: I_lf_109_HULA-B
+
+ variable name: I_lf_110_POGO-A variable start: 1098 variable end: 1131
+
+ variable name: I_lf_110_POGO-B
+
+ variable name: I_lf_110_POGO-C
+
+ variable name: I_lf_111_REEF-A
+
+ variable name: I_lf_111_REEF-B variable start: 1131 variable end: 1166
+
+ variable name: I_lf_112_POGO-A
+
+ variable name: I_lf_112_POGO-B variable start: 1139 variable end: 1172
+
+ variable name: I_lf_112_POGO-C
+
+ variable name: I_lf_113_LION-A variable start: 1160 variable end: 1197
+
+ variable name: I_lf_113_LION-B
+
+ variable name: I_lf_114_POGO-A
+
+ variable name: I_lf_114_POGO-B
+
+ variable name: I_lf_114_POGO-C variable start: 1162 variable end: 1196
+
+ variable name: I_lf_115_PIKE-A variable start: 1172 variable end: 1208
+
+ variable name: I_lf_115_PIKE-B
+
+ variable name: I_lf_116_POGO-A variable start: 1175 variable end: 1212
+
+ variable name: I_lf_116_POGO-B
+
+ variable name: I_lf_116_POGO-C
+
+ variable name: I_lf_117_GUAM-A variable start: 1193 variable end: 1228
+
+ variable name: I_lf_117_GUAM-B
+
+ variable name: I_lf_118_POGO-A
+
+ variable name: I_lf_118_POGO-B variable start: 1210 variable end: 1244
+
+ variable name: I_lf_118_POGO-C
+
+ variable name: I_lf_119_POGO-A
+
+ variable name: I_lf_119_POGO-B
+
+ variable name: I_lf_119_POGO-C variable start: 1229 variable end: 1264
+
+ variable name: I_lf_120_INDI-A variable start: 1232 variable end: 1268
+
+ variable name: I_lf_120_INDI-B
+
+ variable name: I_lf_121_POGO-A variable start: 1249 variable end: 1284
+
+ variable name: I_lf_121_POGO-B
+
+ variable name: I_lf_121_POGO-C
+
+ variable name: I_lf_122_HULA-A
+
+ variable name: I_lf_122_HULA-B variable start: 1245 variable end: 1280
+
+ variable name: I_lf_123_LION-A
+
+ variable name: I_lf_123_LION-B variable start: 1265 variable end: 1297
+
+ variable name: I_lf_124_POGO-A
+
+ variable name: I_lf_124_POGO-B variable start: 1269 variable end: 1304
+
+ variable name: I_lf_124_POGO-C
+
+ variable name: I_lf_125_COOK-A
+
+ variable name: I_lf_125_COOK-B variable start: 1275 variable end: 1309
+
+ variable name: I_lf_126_POGO-A
+
+ variable name: I_lf_126_POGO-B
+
+ variable name: I_lf_126_POGO-C variable start: 1277 variable end: 1313
+
+ variable name: I_lf_127_GUAM-A
+
+ variable name: I_lf_127_GUAM-B variable start: 1294 variable end: 1328
+
+ variable name: I_lf_128_POGO-A variable start: 1298 variable end: 1331
+
+ variable name: I_lf_128_POGO-B
+
+ variable name: I_lf_128_POGO-C
+
+ variable name: I_lf_129_PIKE-A
+
+ variable name: I_lf_129_PIKE-B variable start: 1300 variable end: 1365
+
+ variable name: I_lf_130_BOSS-A variable start: 1303 variable end: 1336
+
+ variable name: I_lf_130_BOSS-B
+
+ variable name: I_lf_131_LION-A variable start: 1314 variable end: 1349
+
+ variable name: I_lf_131_LION-B
+
+ variable name: I_lf_132_POGO-A
+
+ variable name: I_lf_132_POGO-B variable start: 1328 variable end: 1363
+
+ variable name: I_lf_132_POGO-C
+
+ variable name: I_lf_133_REEF-A variable start: 1339 variable end: 1372
+
+ variable name: I_lf_133_REEF-B
+
+ variable name: I_lf_134_POGO-A
+
+ variable name: I_lf_134_POGO-B
+
+ variable name: I_lf_134_POGO-C variable start: 1348 variable end: 1384
+
+ variable name: I_lf_135_LION-A
+
+ variable name: I_lf_135_LION-B variable start: 1352 variable end: 1382
+
+ variable name: I_lf_136_POGO-A variable start: 1355 variable end: 1389
+
+ variable name: I_lf_136_POGO-B
+
+ variable name: I_lf_136_POGO-C
+
+ variable name: I_lf_137_BOSS-A
+
+ variable name: I_lf_137_BOSS-B variable start: 1360 variable end: 1395
+
+ variable name: I_lf_138_POGO-A
+
+ variable name: I_lf_138_POGO-B
+
+ variable name: I_lf_138_POGO-C
+
+ variable name: I_lf_139_HULA-A variable start: 1378 variable end: 1414
+
+ variable name: I_lf_139_HULA-B
+
+ variable name: I_lf_140_POGO-A
+
+ variable name: I_lf_140_POGO-B variable start: 1380 variable end: 1415
+
+ variable name: I_lf_140_POGO-C
+
+ variable name: I_lf_141_COOK-A variable start: 1395 variable end: 1429
+
+ variable name: I_lf_141_COOK-B
+
+ variable name: I_lf_142_COOK-A
+
+ variable name: I_lf_142_COOK-B variable start: 1404 variable end: 1438
+
+ variable name: I_up_1_POGO-A
+
+ variable name: I_up_1_POGO-B
+
+ variable name: I_up_1_POGO-C
+
+ variable name: I_up_1_HULA-A
+
+ variable name: I_up_1_HULA-B
+
+ variable name: I_up_1_COOK-A
+
+ variable name: I_up_1_COOK-B
+
+ variable name: I_up_1_INDI-A
+
+ variable name: I_up_1_BOSS-A
+
+ variable name: I_up_1_BOSS-B variable start: 0 variable end: 30
+
+ variable name: I_up_1_LION-A
+
+ variable name: I_up_1_LION-B
+
+ variable name: I_up_1_GUAM-A
+
+ variable name: I_up_1_GUAM-B
+
+ variable name: I_up_1_PIKE-A
+
+ variable name: I_up_1_REEF-A
+
+ variable name: I_up_2_INDI-A
+
+ variable name: I_up_2_LION-A
+
+ variable name: I_up_2_LION-B
+
+ variable name: I_up_2_REEF-A variable start: 10 variable end: 50
+
+ variable name: I_up_3_HULA-A
+
+ variable name: I_up_3_HULA-B variable start: 15 variable end: 50
+
+ variable name: I_up_3_COOK-A
+
+ variable name: I_up_3_COOK-B
+
+ variable name: I_up_3_GUAM-A
+
+ variable name: I_up_3_GUAM-B
+
+ variable name: I_up_3_PIKE-A
+
+ variable name: I_up_4_BOSS-A
+
+ variable name: I_up_4_BOSS-B
+
+ variable name: I_up_4_LION-A
+
+ variable name: I_up_4_LION-B variable start: 15 variable end: 53
+
+ variable name: I_up_4_PIKE-A
+
+ variable name: I_up_5_POGO-A
+
+ variable name: I_up_5_POGO-B
+
+ variable name: I_up_5_POGO-C
+
+ variable name: I_up_5_HULA-A
+
+ variable name: I_up_5_HULA-B
+
+ variable name: I_up_5_COOK-A
+
+ variable name: I_up_5_COOK-B variable start: 20 variable end: 70
+
+ variable name: I_up_5_BOSS-A
+
+ variable name: I_up_5_BOSS-B
+
+ variable name: I_up_5_LION-A
+
+ variable name: I_up_5_LION-B
+
+ variable name: I_up_5_GUAM-A
+
+ variable name: I_up_5_GUAM-B
+
+ variable name: I_up_5_PIKE-A
+
+ variable name: I_up_6_BOSS-A
+
+ variable name: I_up_6_BOSS-B
+
+ variable name: I_up_6_LION-A
+
+ variable name: I_up_6_LION-B
+
+ variable name: I_up_6_PIKE-A
+
+ variable name: I_up_7_HULA-A variable start: 35 variable end: 60
+
+ variable name: I_up_7_HULA-B
+
+ variable name: I_up_7_COOK-A
+
+ variable name: I_up_7_COOK-B
+
+ variable name: I_up_7_BOSS-A
+
+ variable name: I_up_7_BOSS-B
+
+ variable name: I_up_7_PIKE-A
+
+ variable name: I_up_8_INDI-A variable start: 36 variable end: 61
+
+ variable name: I_up_8_BOSS-A
+
+ variable name: I_up_8_BOSS-B
+
+ variable name: I_up_8_LION-A
+
+ variable name: I_up_8_LION-B
+
+ variable name: I_up_9_BOSS-A
+
+ variable name: I_up_9_BOSS-B
+
+ variable name: I_up_9_LION-A
+
+ variable name: I_up_9_LION-B
+
+ variable name: I_up_9_PIKE-A
+
+ variable name: I_up_10_INDI-A
+
+ variable name: I_up_10_LION-A
+
+ variable name: I_up_10_LION-B
+
+ variable name: I_up_10_GUAM-A variable start: 45 variable end: 90
+
+ variable name: I_up_10_GUAM-B
+
+ variable name: I_up_10_REEF-A
+
+ variable name: I_up_11_POGO-A
+
+ variable name: I_up_11_POGO-B
+
+ variable name: I_up_11_POGO-C
+
+ variable name: I_up_11_HULA-A
+
+ variable name: I_up_11_HULA-B
+
+ variable name: I_up_11_COOK-A
+
+ variable name: I_up_11_COOK-B
+
+ variable name: I_up_11_INDI-A
+
+ variable name: I_up_11_BOSS-A
+
+ variable name: I_up_11_BOSS-B
+
+ variable name: I_up_11_LION-A
+
+ variable name: I_up_11_LION-B
+
+ variable name: I_up_11_GUAM-A
+
+ variable name: I_up_11_GUAM-B
+
+ variable name: I_up_11_PIKE-A
+
+ variable name: I_up_11_REEF-A variable start: 50 variable end: 80
+
+ variable name: I_up_12_INDI-A variable start: 65 variable end: 90
+
+ variable name: I_up_12_BOSS-A
+
+ variable name: I_up_12_BOSS-B
+
+ variable name: I_up_12_LION-A
+
+ variable name: I_up_12_LION-B
+
+ variable name: I_up_13_POGO-A
+
+ variable name: I_up_13_POGO-B
+
+ variable name: I_up_13_POGO-C
+
+ variable name: I_up_13_HULA-A
+
+ variable name: I_up_13_HULA-B
+
+ variable name: I_up_13_COOK-A variable start: 75 variable end: 105
+
+ variable name: I_up_13_COOK-B
+
+ variable name: I_up_13_INDI-A
+
+ variable name: I_up_13_BOSS-A
+
+ variable name: I_up_13_BOSS-B
+
+ variable name: I_up_13_LION-A
+
+ variable name: I_up_13_LION-B
+
+ variable name: I_up_13_GUAM-A
+
+ variable name: I_up_13_GUAM-B
+
+ variable name: I_up_13_PIKE-A
+
+ variable name: I_up_13_REEF-A
+
+ variable name: I_up_14_HULA-A
+
+ variable name: I_up_14_HULA-B variable start: 75 variable end: 100
+
+ variable name: I_up_14_GUAM-A
+
+ variable name: I_up_14_GUAM-B
+
+ variable name: I_up_14_REEF-A
+
+ variable name: I_up_15_POGO-A
+
+ variable name: I_up_15_POGO-B
+
+ variable name: I_up_15_POGO-C
+
+ variable name: I_up_15_HULA-A
+
+ variable name: I_up_15_HULA-B
+
+ variable name: I_up_15_COOK-A
+
+ variable name: I_up_15_COOK-B variable start: 75 variable end: 135
+
+ variable name: I_up_15_INDI-A
+
+ variable name: I_up_15_BOSS-A
+
+ variable name: I_up_15_BOSS-B
+
+ variable name: I_up_15_LION-A
+
+ variable name: I_up_15_LION-B
+
+ variable name: I_up_15_GUAM-A
+
+ variable name: I_up_15_GUAM-B
+
+ variable name: I_up_15_PIKE-A
+
+ variable name: I_up_15_REEF-A
+
+ variable name: I_up_16_POGO-A
+
+ variable name: I_up_16_POGO-B
+
+ variable name: I_up_16_POGO-C
+
+ variable name: I_up_16_HULA-A
+
+ variable name: I_up_16_HULA-B
+
+ variable name: I_up_16_COOK-A
+
+ variable name: I_up_16_COOK-B
+
+ variable name: I_up_16_INDI-A
+
+ variable name: I_up_16_BOSS-A
+
+ variable name: I_up_16_BOSS-B
+
+ variable name: I_up_16_LION-A
+
+ variable name: I_up_16_LION-B
+
+ variable name: I_up_16_GUAM-A
+
+ variable name: I_up_16_GUAM-B variable start: 100 variable end: 130
+
+ variable name: I_up_16_PIKE-A
+
+ variable name: I_up_16_REEF-A
+
+ variable name: I_up_17_HULA-A
+
+ variable name: I_up_17_HULA-B
+
+ variable name: I_up_17_COOK-A variable start: 105 variable end: 130
+
+ variable name: I_up_17_COOK-B
+
+ variable name: I_up_17_GUAM-A
+
+ variable name: I_up_17_GUAM-B
+
+ variable name: I_up_18_POGO-A
+
+ variable name: I_up_18_POGO-B
+
+ variable name: I_up_18_POGO-C
+
+ variable name: I_up_18_HULA-A
+
+ variable name: I_up_18_HULA-B
+
+ variable name: I_up_18_COOK-A
+
+ variable name: I_up_18_COOK-B
+
+ variable name: I_up_18_INDI-A
+
+ variable name: I_up_18_BOSS-A
+
+ variable name: I_up_18_BOSS-B
+
+ variable name: I_up_18_LION-A
+
+ variable name: I_up_18_LION-B
+
+ variable name: I_up_18_GUAM-A variable start: 105 variable end: 135
+
+ variable name: I_up_18_GUAM-B
+
+ variable name: I_up_18_PIKE-A
+
+ variable name: I_up_18_REEF-A
+
+ variable name: I_up_19_POGO-A
+
+ variable name: I_up_19_POGO-B
+
+ variable name: I_up_19_POGO-C
+
+ variable name: I_up_19_HULA-A
+
+ variable name: I_up_19_HULA-B
+
+ variable name: I_up_19_COOK-A
+
+ variable name: I_up_19_COOK-B
+
+ variable name: I_up_19_INDI-A
+
+ variable name: I_up_19_BOSS-A
+
+ variable name: I_up_19_BOSS-B
+
+ variable name: I_up_19_LION-A
+
+ variable name: I_up_19_LION-B
+
+ variable name: I_up_19_GUAM-A
+
+ variable name: I_up_19_GUAM-B
+
+ variable name: I_up_19_PIKE-A variable start: 110 variable end: 145
+
+ variable name: I_up_19_REEF-A
+
+ variable name: I_up_20_POGO-A variable start: 150 variable end: 180
+
+ variable name: I_up_20_POGO-B
+
+ variable name: I_up_20_POGO-C
+
+ variable name: I_up_20_HULA-A
+
+ variable name: I_up_20_HULA-B
+
+ variable name: I_up_20_COOK-A
+
+ variable name: I_up_20_COOK-B
+
+ variable name: I_up_20_INDI-A
+
+ variable name: I_up_20_BOSS-A
+
+ variable name: I_up_20_BOSS-B
+
+ variable name: I_up_20_LION-A
+
+ variable name: I_up_20_LION-B
+
+ variable name: I_up_20_GUAM-A
+
+ variable name: I_up_20_GUAM-B
+
+ variable name: I_up_20_PIKE-A
+
+ variable name: I_up_20_REEF-A
+
+ variable name: I_up_21_POGO-A
+
+ variable name: I_up_21_POGO-B
+
+ variable name: I_up_21_POGO-C
+
+ variable name: I_up_21_HULA-A
+
+ variable name: I_up_21_HULA-B
+
+ variable name: I_up_21_COOK-A
+
+ variable name: I_up_21_COOK-B
+
+ variable name: I_up_21_INDI-A
+
+ variable name: I_up_21_BOSS-A
+
+ variable name: I_up_21_BOSS-B
+
+ variable name: I_up_21_LION-A
+
+ variable name: I_up_21_LION-B
+
+ variable name: I_up_21_GUAM-A
+
+ variable name: I_up_21_GUAM-B variable start: 160 variable end: 190
+
+ variable name: I_up_21_PIKE-A
+
+ variable name: I_up_22_POGO-A
+
+ variable name: I_up_22_POGO-B variable start: 175 variable end: 200
+
+ variable name: I_up_22_POGO-C
+
+ variable name: I_up_22_COOK-A
+
+ variable name: I_up_22_COOK-B
+
+ variable name: I_up_22_INDI-A
+
+ variable name: I_up_22_BOSS-A
+
+ variable name: I_up_22_BOSS-B
+
+ variable name: I_up_22_LION-A
+
+ variable name: I_up_22_LION-B
+
+ variable name: I_up_22_PIKE-A
+
+ variable name: I_up_23_HULA-A variable start: 195 variable end: 215
+
+ variable name: I_up_23_HULA-B
+
+ variable name: I_up_23_COOK-A
+
+ variable name: I_up_23_COOK-B
+
+ variable name: I_up_23_BOSS-A
+
+ variable name: I_up_23_BOSS-B
+
+ variable name: I_up_23_PIKE-A
+
+ variable name: I_up_24_INDI-A
+
+ variable name: I_up_24_LION-A variable start: 200 variable end: 235
+
+ variable name: I_up_24_LION-B
+
+ variable name: I_up_24_REEF-A
+
+ variable name: I_up_25_POGO-A
+
+ variable name: I_up_25_POGO-B
+
+ variable name: I_up_25_POGO-C
+
+ variable name: I_up_25_HULA-A
+
+ variable name: I_up_25_HULA-B
+
+ variable name: I_up_25_COOK-A
+
+ variable name: I_up_25_COOK-B
+
+ variable name: I_up_25_INDI-A
+
+ variable name: I_up_25_BOSS-A
+
+ variable name: I_up_25_BOSS-B
+
+ variable name: I_up_25_LION-A
+
+ variable name: I_up_25_LION-B
+
+ variable name: I_up_25_GUAM-A
+
+ variable name: I_up_25_GUAM-B
+
+ variable name: I_up_25_PIKE-A variable start: 225 variable end: 255
+
+ variable name: I_up_25_REEF-A
+
+ variable name: I_up_26_POGO-A variable start: 230 variable end: 275
+
+ variable name: I_up_26_POGO-B
+
+ variable name: I_up_26_POGO-C
+
+ variable name: I_up_26_HULA-A
+
+ variable name: I_up_26_HULA-B
+
+ variable name: I_up_26_COOK-A
+
+ variable name: I_up_26_COOK-B
+
+ variable name: I_up_26_INDI-A
+
+ variable name: I_up_26_BOSS-A
+
+ variable name: I_up_26_BOSS-B
+
+ variable name: I_up_26_LION-A
+
+ variable name: I_up_26_LION-B
+
+ variable name: I_up_26_GUAM-A
+
+ variable name: I_up_26_GUAM-B
+
+ variable name: I_up_26_PIKE-A
+
+ variable name: I_up_27_INDI-A
+
+ variable name: I_up_27_LION-A
+
+ variable name: I_up_27_LION-B
+
+ variable name: I_up_27_GUAM-A
+
+ variable name: I_up_27_GUAM-B
+
+ variable name: I_up_27_REEF-A variable start: 250 variable end: 285
+
+ variable name: I_up_28_POGO-A
+
+ variable name: I_up_28_POGO-B
+
+ variable name: I_up_28_POGO-C
+
+ variable name: I_up_28_HULA-A
+
+ variable name: I_up_28_HULA-B
+
+ variable name: I_up_28_COOK-A
+
+ variable name: I_up_28_COOK-B variable start: 250 variable end: 275
+
+ variable name: I_up_28_INDI-A
+
+ variable name: I_up_28_BOSS-A
+
+ variable name: I_up_28_BOSS-B
+
+ variable name: I_up_28_LION-A
+
+ variable name: I_up_28_LION-B
+
+ variable name: I_up_28_GUAM-A
+
+ variable name: I_up_28_GUAM-B
+
+ variable name: I_up_28_PIKE-A
+
+ variable name: I_up_28_REEF-A
+
+ variable name: I_up_29_HULA-A
+
+ variable name: I_up_29_HULA-B
+
+ variable name: I_up_29_COOK-A
+
+ variable name: I_up_29_COOK-B
+
+ variable name: I_up_29_BOSS-A
+
+ variable name: I_up_29_BOSS-B variable start: 273 variable end: 293
+
+ variable name: I_up_29_PIKE-A
+
+ variable name: I_up_30_BOSS-A variable start: 260 variable end: 280
+
+ variable name: I_up_30_BOSS-B
+
+ variable name: I_up_30_LION-A
+
+ variable name: I_up_30_LION-B
+
+ variable name: I_up_30_PIKE-A
+
+ variable name: I_up_31_POGO-A
+
+ variable name: I_up_31_POGO-B
+
+ variable name: I_up_31_POGO-C
+
+ variable name: I_up_31_HULA-A
+
+ variable name: I_up_31_HULA-B
+
+ variable name: I_up_31_COOK-A
+
+ variable name: I_up_31_COOK-B
+
+ variable name: I_up_31_INDI-A
+
+ variable name: I_up_31_BOSS-A
+
+ variable name: I_up_31_BOSS-B
+
+ variable name: I_up_31_LION-A
+
+ variable name: I_up_31_LION-B
+
+ variable name: I_up_31_GUAM-A
+
+ variable name: I_up_31_GUAM-B
+
+ variable name: I_up_31_PIKE-A variable start: 270 variable end: 330
+
+ variable name: I_up_31_REEF-A
+
+ variable name: I_up_32_INDI-A
+
+ variable name: I_up_32_BOSS-A variable start: 285 variable end: 310
+
+ variable name: I_up_32_BOSS-B
+
+ variable name: I_up_32_LION-A
+
+ variable name: I_up_32_LION-B
+
+ variable name: I_up_33_INDI-A variable start: 300 variable end: 320
+
+ variable name: I_up_33_LION-A
+
+ variable name: I_up_33_LION-B
+
+ variable name: I_up_33_REEF-A
+
+ variable name: I_up_34_INDI-A
+
+ variable name: I_up_34_BOSS-A
+
+ variable name: I_up_34_BOSS-B variable start: 305 variable end: 330
+
+ variable name: I_up_34_LION-A
+
+ variable name: I_up_34_LION-B
+
+ variable name: I_up_35_POGO-A
+
+ variable name: I_up_35_POGO-B
+
+ variable name: I_up_35_POGO-C variable start: 310 variable end: 335
+
+ variable name: I_up_35_HULA-A
+
+ variable name: I_up_35_HULA-B
+
+ variable name: I_up_35_COOK-A
+
+ variable name: I_up_35_COOK-B
+
+ variable name: I_up_35_INDI-A
+
+ variable name: I_up_35_BOSS-A
+
+ variable name: I_up_35_BOSS-B
+
+ variable name: I_up_35_LION-A
+
+ variable name: I_up_35_LION-B
+
+ variable name: I_up_35_GUAM-A
+
+ variable name: I_up_35_GUAM-B
+
+ variable name: I_up_35_PIKE-A
+
+ variable name: I_up_36_INDI-A
+
+ variable name: I_up_36_GUAM-A
+
+ variable name: I_up_36_GUAM-B
+
+ variable name: I_up_36_REEF-A variable start: 315 variable end: 350
+
+ variable name: I_up_37_POGO-A
+
+ variable name: I_up_37_POGO-B
+
+ variable name: I_up_37_POGO-C
+
+ variable name: I_up_37_HULA-A
+
+ variable name: I_up_37_HULA-B
+
+ variable name: I_up_37_COOK-A
+
+ variable name: I_up_37_COOK-B
+
+ variable name: I_up_37_INDI-A
+
+ variable name: I_up_37_BOSS-A
+
+ variable name: I_up_37_BOSS-B
+
+ variable name: I_up_37_LION-A
+
+ variable name: I_up_37_LION-B
+
+ variable name: I_up_37_GUAM-A
+
+ variable name: I_up_37_GUAM-B variable start: 315 variable end: 375
+
+ variable name: I_up_37_PIKE-A
+
+ variable name: I_up_37_REEF-A
+
+ variable name: I_up_38_COOK-A variable start: 325 variable end: 345
+
+ variable name: I_up_38_COOK-B
+
+ variable name: I_up_38_BOSS-A
+
+ variable name: I_up_38_BOSS-B
+
+ variable name: I_up_38_LION-A
+
+ variable name: I_up_38_LION-B
+
+ variable name: I_up_38_PIKE-A
+
+ variable name: I_up_39_POGO-A
+
+ variable name: I_up_39_POGO-B variable start: 345 variable end: 375
+
+ variable name: I_up_39_POGO-C
+
+ variable name: I_up_39_HULA-A
+
+ variable name: I_up_39_HULA-B
+
+ variable name: I_up_39_COOK-A
+
+ variable name: I_up_39_COOK-B
+
+ variable name: I_up_39_INDI-A
+
+ variable name: I_up_39_BOSS-A
+
+ variable name: I_up_39_BOSS-B
+
+ variable name: I_up_39_LION-A
+
+ variable name: I_up_39_LION-B
+
+ variable name: I_up_39_GUAM-A
+
+ variable name: I_up_39_GUAM-B
+
+ variable name: I_up_39_PIKE-A
+
+ variable name: I_up_39_REEF-A
+
+ variable name: I_up_40_INDI-A
+
+ variable name: I_up_40_BOSS-A
+
+ variable name: I_up_40_BOSS-B variable start: 355 variable end: 375
+
+ variable name: I_up_40_LION-A
+
+ variable name: I_up_40_LION-B
+
+ variable name: I_up_41_POGO-A
+
+ variable name: I_up_41_POGO-B
+
+ variable name: I_up_41_POGO-C
+
+ variable name: I_up_41_HULA-A
+
+ variable name: I_up_41_HULA-B
+
+ variable name: I_up_41_COOK-A variable start: 360 variable end: 390
+
+ variable name: I_up_41_COOK-B
+
+ variable name: I_up_41_INDI-A
+
+ variable name: I_up_41_BOSS-A
+
+ variable name: I_up_41_BOSS-B
+
+ variable name: I_up_41_LION-A
+
+ variable name: I_up_41_LION-B
+
+ variable name: I_up_41_GUAM-A
+
+ variable name: I_up_41_GUAM-B
+
+ variable name: I_up_41_PIKE-A
+
+ variable name: I_up_41_REEF-A
+
+ variable name: I_up_42_POGO-A
+
+ variable name: I_up_42_POGO-B
+
+ variable name: I_up_42_POGO-C
+
+ variable name: I_up_42_HULA-A
+
+ variable name: I_up_42_HULA-B
+
+ variable name: I_up_42_COOK-A
+
+ variable name: I_up_42_COOK-B
+
+ variable name: I_up_42_INDI-A
+
+ variable name: I_up_42_BOSS-A
+
+ variable name: I_up_42_BOSS-B
+
+ variable name: I_up_42_LION-A
+
+ variable name: I_up_42_LION-B
+
+ variable name: I_up_42_GUAM-A
+
+ variable name: I_up_42_GUAM-B
+
+ variable name: I_up_42_PIKE-A
+
+ variable name: I_up_42_REEF-A variable start: 360 variable end: 405
+
+ variable name: I_up_43_POGO-A
+
+ variable name: I_up_43_POGO-B
+
+ variable name: I_up_43_POGO-C variable start: 365 variable end: 390
+
+ variable name: I_up_43_HULA-A
+
+ variable name: I_up_43_HULA-B
+
+ variable name: I_up_43_COOK-A
+
+ variable name: I_up_43_COOK-B
+
+ variable name: I_up_43_INDI-A
+
+ variable name: I_up_43_BOSS-A
+
+ variable name: I_up_43_BOSS-B
+
+ variable name: I_up_43_LION-A
+
+ variable name: I_up_43_LION-B
+
+ variable name: I_up_43_GUAM-A
+
+ variable name: I_up_43_GUAM-B
+
+ variable name: I_up_43_PIKE-A
+
+ variable name: I_up_43_REEF-A
+
+ variable name: I_up_44_INDI-A
+
+ variable name: I_up_44_LION-A
+
+ variable name: I_up_44_LION-B
+
+ variable name: I_up_44_GUAM-A variable start: 375 variable end: 395
+
+ variable name: I_up_44_GUAM-B
+
+ variable name: I_up_44_REEF-A
+
+ variable name: I_up_45_BOSS-A
+
+ variable name: I_up_45_BOSS-B
+
+ variable name: I_up_45_LION-A
+
+ variable name: I_up_45_LION-B
+
+ variable name: I_up_45_PIKE-A variable start: 375 variable end: 405
+
+ variable name: I_up_46_INDI-A variable start: 385 variable end: 425
+
+ variable name: I_up_46_LION-A
+
+ variable name: I_up_46_LION-B
+
+ variable name: I_up_46_REEF-A
+
+ variable name: I_up_47_INDI-A
+
+ variable name: I_up_47_BOSS-A
+
+ variable name: I_up_47_BOSS-B variable start: 390 variable end: 410
+
+ variable name: I_up_47_LION-A
+
+ variable name: I_up_47_LION-B
+
+ variable name: I_up_48_POGO-A
+
+ variable name: I_up_48_POGO-B
+
+ variable name: I_up_48_POGO-C
+
+ variable name: I_up_48_HULA-A
+
+ variable name: I_up_48_HULA-B
+
+ variable name: I_up_48_COOK-A variable start: 390 variable end: 450
+
+ variable name: I_up_48_COOK-B
+
+ variable name: I_up_48_INDI-A
+
+ variable name: I_up_48_BOSS-A
+
+ variable name: I_up_48_BOSS-B
+
+ variable name: I_up_48_LION-A
+
+ variable name: I_up_48_LION-B
+
+ variable name: I_up_48_GUAM-A
+
+ variable name: I_up_48_GUAM-B
+
+ variable name: I_up_48_PIKE-A
+
+ variable name: I_up_48_REEF-A
+
+ variable name: I_up_49_POGO-A
+
+ variable name: I_up_49_POGO-B
+
+ variable name: I_up_49_POGO-C variable start: 405 variable end: 435
+
+ variable name: I_up_49_HULA-A
+
+ variable name: I_up_49_HULA-B
+
+ variable name: I_up_49_COOK-A
+
+ variable name: I_up_49_COOK-B
+
+ variable name: I_up_49_INDI-A
+
+ variable name: I_up_49_BOSS-A
+
+ variable name: I_up_49_BOSS-B
+
+ variable name: I_up_49_LION-A
+
+ variable name: I_up_49_LION-B
+
+ variable name: I_up_49_GUAM-A
+
+ variable name: I_up_49_GUAM-B
+
+ variable name: I_up_49_PIKE-A
+
+ variable name: I_up_49_REEF-A
+
+ variable name: I_up_50_INDI-A
+
+ variable name: I_up_50_LION-A
+
+ variable name: I_up_50_LION-B
+
+ variable name: I_up_50_GUAM-A
+
+ variable name: I_up_50_GUAM-B
+
+ variable name: I_up_50_REEF-A variable start: 435 variable end: 470
+
+ variable name: I_up_51_POGO-A
+
+ variable name: I_up_51_POGO-B
+
+ variable name: I_up_51_POGO-C
+
+ variable name: I_up_51_HULA-A variable start: 450 variable end: 510
+
+ variable name: I_up_51_HULA-B
+
+ variable name: I_up_51_COOK-A
+
+ variable name: I_up_51_COOK-B
+
+ variable name: I_up_51_INDI-A
+
+ variable name: I_up_51_BOSS-A
+
+ variable name: I_up_51_BOSS-B
+
+ variable name: I_up_51_LION-A
+
+ variable name: I_up_51_LION-B
+
+ variable name: I_up_51_GUAM-A
+
+ variable name: I_up_51_GUAM-B
+
+ variable name: I_up_51_PIKE-A
+
+ variable name: I_up_51_REEF-A
+
+ variable name: I_up_52_POGO-A
+
+ variable name: I_up_52_POGO-B
+
+ variable name: I_up_52_POGO-C
+
+ variable name: I_up_52_HULA-A
+
+ variable name: I_up_52_HULA-B
+
+ variable name: I_up_52_COOK-A
+
+ variable name: I_up_52_COOK-B
+
+ variable name: I_up_52_INDI-A
+
+ variable name: I_up_52_BOSS-A
+
+ variable name: I_up_52_BOSS-B
+
+ variable name: I_up_52_LION-A
+
+ variable name: I_up_52_LION-B
+
+ variable name: I_up_52_GUAM-A variable start: 465 variable end: 490
+
+ variable name: I_up_52_GUAM-B
+
+ variable name: I_up_52_PIKE-A
+
+ variable name: I_up_53_POGO-A
+
+ variable name: I_up_53_POGO-B
+
+ variable name: I_up_53_POGO-C
+
+ variable name: I_up_53_HULA-A
+
+ variable name: I_up_53_HULA-B
+
+ variable name: I_up_53_COOK-A variable start: 465 variable end: 495
+
+ variable name: I_up_53_COOK-B
+
+ variable name: I_up_53_INDI-A
+
+ variable name: I_up_53_BOSS-A
+
+ variable name: I_up_53_BOSS-B
+
+ variable name: I_up_53_LION-A
+
+ variable name: I_up_53_LION-B
+
+ variable name: I_up_53_GUAM-A
+
+ variable name: I_up_53_GUAM-B
+
+ variable name: I_up_53_PIKE-A
+
+ variable name: I_up_53_REEF-A
+
+ variable name: I_up_54_POGO-A
+
+ variable name: I_up_54_POGO-B
+
+ variable name: I_up_54_POGO-C
+
+ variable name: I_up_54_HULA-A
+
+ variable name: I_up_54_HULA-B variable start: 485 variable end: 545
+
+ variable name: I_up_54_COOK-A
+
+ variable name: I_up_54_COOK-B
+
+ variable name: I_up_54_INDI-A
+
+ variable name: I_up_54_BOSS-A
+
+ variable name: I_up_54_BOSS-B
+
+ variable name: I_up_54_LION-A
+
+ variable name: I_up_54_LION-B
+
+ variable name: I_up_54_GUAM-A
+
+ variable name: I_up_54_GUAM-B
+
+ variable name: I_up_54_PIKE-A
+
+ variable name: I_up_54_REEF-A
+
+ variable name: I_up_55_HULA-A
+
+ variable name: I_up_55_HULA-B
+
+ variable name: I_up_55_COOK-A
+
+ variable name: I_up_55_COOK-B
+
+ variable name: I_up_55_GUAM-A variable start: 495 variable end: 530
+
+ variable name: I_up_55_GUAM-B
+
+ variable name: I_up_55_PIKE-A
+
+ variable name: I_up_56_INDI-A
+
+ variable name: I_up_56_LION-A
+
+ variable name: I_up_56_LION-B
+
+ variable name: I_up_56_REEF-A variable start: 500 variable end: 535
+
+ variable name: I_up_57_HULA-A variable start: 510 variable end: 540
+
+ variable name: I_up_57_HULA-B
+
+ variable name: I_up_57_COOK-A
+
+ variable name: I_up_57_COOK-B
+
+ variable name: I_up_57_GUAM-A
+
+ variable name: I_up_57_GUAM-B
+
+ variable name: I_up_58_POGO-A
+
+ variable name: I_up_58_POGO-B
+
+ variable name: I_up_58_POGO-C
+
+ variable name: I_up_58_HULA-A
+
+ variable name: I_up_58_HULA-B
+
+ variable name: I_up_58_COOK-A
+
+ variable name: I_up_58_COOK-B
+
+ variable name: I_up_58_INDI-A variable start: 515 variable end: 555
+
+ variable name: I_up_58_BOSS-A
+
+ variable name: I_up_58_BOSS-B
+
+ variable name: I_up_58_LION-A
+
+ variable name: I_up_58_LION-B
+
+ variable name: I_up_58_GUAM-A
+
+ variable name: I_up_58_GUAM-B
+
+ variable name: I_up_58_PIKE-A
+
+ variable name: I_up_59_HULA-A
+
+ variable name: I_up_59_HULA-B
+
+ variable name: I_up_59_COOK-A
+
+ variable name: I_up_59_COOK-B variable start: 515 variable end: 580
+
+ variable name: I_up_59_GUAM-A
+
+ variable name: I_up_59_GUAM-B
+
+ variable name: I_up_59_PIKE-A
+
+ variable name: I_up_60_HULA-A
+
+ variable name: I_up_60_HULA-B
+
+ variable name: I_up_60_COOK-A
+
+ variable name: I_up_60_COOK-B
+
+ variable name: I_up_60_BOSS-A
+
+ variable name: I_up_60_BOSS-B
+
+ variable name: I_up_60_PIKE-A variable start: 525 variable end: 550
+
+ variable name: I_up_61_POGO-A
+
+ variable name: I_up_61_POGO-B
+
+ variable name: I_up_61_POGO-C
+
+ variable name: I_up_61_HULA-A
+
+ variable name: I_up_61_HULA-B
+
+ variable name: I_up_61_COOK-A
+
+ variable name: I_up_61_COOK-B
+
+ variable name: I_up_61_INDI-A
+
+ variable name: I_up_61_BOSS-A
+
+ variable name: I_up_61_BOSS-B
+
+ variable name: I_up_61_LION-A
+
+ variable name: I_up_61_LION-B
+
+ variable name: I_up_61_GUAM-A
+
+ variable name: I_up_61_GUAM-B
+
+ variable name: I_up_61_PIKE-A
+
+ variable name: I_up_61_REEF-A variable start: 540 variable end: 595
+
+ variable name: I_up_62_INDI-A
+
+ variable name: I_up_62_BOSS-A
+
+ variable name: I_up_62_BOSS-B
+
+ variable name: I_up_62_LION-A variable start: 545 variable end: 570
+
+ variable name: I_up_62_LION-B
+
+ variable name: I_up_63_BOSS-A
+
+ variable name: I_up_63_BOSS-B
+
+ variable name: I_up_63_LION-A variable start: 570 variable end: 605
+
+ variable name: I_up_63_LION-B
+
+ variable name: I_up_63_PIKE-A
+
+ variable name: I_up_64_POGO-A
+
+ variable name: I_up_64_POGO-B
+
+ variable name: I_up_64_POGO-C
+
+ variable name: I_up_64_COOK-A
+
+ variable name: I_up_64_COOK-B
+
+ variable name: I_up_64_BOSS-A
+
+ variable name: I_up_64_BOSS-B
+
+ variable name: I_up_64_LION-A
+
+ variable name: I_up_64_LION-B variable start: 555 variable end: 585
+
+ variable name: I_up_64_PIKE-A
+
+ variable name: I_up_65_POGO-A
+
+ variable name: I_up_65_POGO-B
+
+ variable name: I_up_65_POGO-C
+
+ variable name: I_up_65_HULA-A
+
+ variable name: I_up_65_HULA-B
+
+ variable name: I_up_65_COOK-A
+
+ variable name: I_up_65_COOK-B
+
+ variable name: I_up_65_INDI-A variable start: 555 variable end: 595
+
+ variable name: I_up_65_BOSS-A
+
+ variable name: I_up_65_BOSS-B
+
+ variable name: I_up_65_LION-A
+
+ variable name: I_up_65_LION-B
+
+ variable name: I_up_65_GUAM-A
+
+ variable name: I_up_65_GUAM-B
+
+ variable name: I_up_65_PIKE-A
+
+ variable name: I_up_65_REEF-A
+
+ variable name: I_up_66_POGO-A
+
+ variable name: I_up_66_POGO-B
+
+ variable name: I_up_66_POGO-C
+
+ variable name: I_up_66_HULA-A
+
+ variable name: I_up_66_HULA-B
+
+ variable name: I_up_66_COOK-A
+
+ variable name: I_up_66_COOK-B
+
+ variable name: I_up_66_INDI-A
+
+ variable name: I_up_66_BOSS-A
+
+ variable name: I_up_66_BOSS-B
+
+ variable name: I_up_66_LION-A
+
+ variable name: I_up_66_LION-B
+
+ variable name: I_up_66_GUAM-A
+
+ variable name: I_up_66_GUAM-B
+
+ variable name: I_up_66_PIKE-A variable start: 585 variable end: 615
+
+ variable name: I_up_66_REEF-A
+
+ variable name: I_up_67_HULA-A
+
+ variable name: I_up_67_HULA-B
+
+ variable name: I_up_67_COOK-A
+
+ variable name: I_up_67_COOK-B variable start: 615 variable end: 635
+
+ variable name: I_up_67_BOSS-A
+
+ variable name: I_up_67_BOSS-B
+
+ variable name: I_up_67_PIKE-A
+
+ variable name: I_up_68_BOSS-A
+
+ variable name: I_up_68_BOSS-B
+
+ variable name: I_up_68_LION-A variable start: 615 variable end: 640
+
+ variable name: I_up_68_LION-B
+
+ variable name: I_up_68_PIKE-A
+
+ variable name: I_up_69_POGO-A
+
+ variable name: I_up_69_POGO-B
+
+ variable name: I_up_69_POGO-C
+
+ variable name: I_up_69_HULA-A
+
+ variable name: I_up_69_HULA-B
+
+ variable name: I_up_69_COOK-A variable start: 615 variable end: 645
+
+ variable name: I_up_69_COOK-B
+
+ variable name: I_up_69_INDI-A
+
+ variable name: I_up_69_BOSS-A
+
+ variable name: I_up_69_BOSS-B
+
+ variable name: I_up_69_LION-A
+
+ variable name: I_up_69_LION-B
+
+ variable name: I_up_69_GUAM-A
+
+ variable name: I_up_69_GUAM-B
+
+ variable name: I_up_69_PIKE-A
+
+ variable name: I_up_70_HULA-A
+
+ variable name: I_up_70_HULA-B
+
+ variable name: I_up_70_COOK-A
+
+ variable name: I_up_70_COOK-B variable start: 645 variable end: 665
+
+ variable name: I_up_70_GUAM-A
+
+ variable name: I_up_70_GUAM-B
+
+ variable name: I_up_71_POGO-A
+
+ variable name: I_up_71_POGO-B
+
+ variable name: I_up_71_POGO-C
+
+ variable name: I_up_71_HULA-A
+
+ variable name: I_up_71_HULA-B
+
+ variable name: I_up_71_COOK-A
+
+ variable name: I_up_71_COOK-B
+
+ variable name: I_up_71_INDI-A
+
+ variable name: I_up_71_BOSS-A
+
+ variable name: I_up_71_BOSS-B
+
+ variable name: I_up_71_LION-A
+
+ variable name: I_up_71_LION-B
+
+ variable name: I_up_71_GUAM-A
+
+ variable name: I_up_71_GUAM-B
+
+ variable name: I_up_71_PIKE-A
+
+ variable name: I_up_71_REEF-A variable start: 645 variable end: 670
+
+ variable name: I_up_72_POGO-A
+
+ variable name: I_up_72_POGO-B
+
+ variable name: I_up_72_POGO-C
+
+ variable name: I_up_72_HULA-A
+
+ variable name: I_up_72_HULA-B
+
+ variable name: I_up_72_COOK-A
+
+ variable name: I_up_72_COOK-B
+
+ variable name: I_up_72_INDI-A
+
+ variable name: I_up_72_BOSS-A
+
+ variable name: I_up_72_BOSS-B
+
+ variable name: I_up_72_LION-A
+
+ variable name: I_up_72_LION-B
+
+ variable name: I_up_72_GUAM-A variable start: 655 variable end: 695
+
+ variable name: I_up_72_GUAM-B
+
+ variable name: I_up_72_PIKE-A
+
+ variable name: I_up_73_INDI-A variable start: 660 variable end: 680
+
+ variable name: I_up_73_LION-A
+
+ variable name: I_up_73_LION-B
+
+ variable name: I_up_73_REEF-A
+
+ variable name: I_up_74_HULA-A
+
+ variable name: I_up_74_HULA-B
+
+ variable name: I_up_74_COOK-A
+
+ variable name: I_up_74_COOK-B variable start: 675 variable end: 695
+
+ variable name: I_up_74_BOSS-A
+
+ variable name: I_up_74_BOSS-B
+
+ variable name: I_up_74_PIKE-A
+
+ variable name: I_up_75_INDI-A
+
+ variable name: I_up_75_LION-A
+
+ variable name: I_up_75_LION-B
+
+ variable name: I_up_75_GUAM-A
+
+ variable name: I_up_75_GUAM-B variable start: 675 variable end: 710
+
+ variable name: I_up_75_REEF-A
+
+ variable name: I_up_76_POGO-A
+
+ variable name: I_up_76_POGO-B
+
+ variable name: I_up_76_POGO-C
+
+ variable name: I_up_76_HULA-A
+
+ variable name: I_up_76_HULA-B variable start: 675 variable end: 705
+
+ variable name: I_up_76_COOK-A
+
+ variable name: I_up_76_COOK-B
+
+ variable name: I_up_76_INDI-A
+
+ variable name: I_up_76_BOSS-A
+
+ variable name: I_up_76_BOSS-B
+
+ variable name: I_up_76_LION-A
+
+ variable name: I_up_76_LION-B
+
+ variable name: I_up_76_GUAM-A
+
+ variable name: I_up_76_GUAM-B
+
+ variable name: I_up_76_PIKE-A
+
+ variable name: I_up_76_REEF-A
+
+ variable name: I_up_77_BOSS-A
+
+ variable name: I_up_77_BOSS-B
+
+ variable name: I_up_77_LION-A
+
+ variable name: I_up_77_LION-B
+
+ variable name: I_up_77_PIKE-A variable start: 680 variable end: 700
+
+ variable name: I_up_78_POGO-A
+
+ variable name: I_up_78_POGO-B
+
+ variable name: I_up_78_POGO-C
+
+ variable name: I_up_78_HULA-A variable start: 680 variable end: 705
+
+ variable name: I_up_78_HULA-B
+
+ variable name: I_up_78_COOK-A
+
+ variable name: I_up_78_COOK-B
+
+ variable name: I_up_78_INDI-A
+
+ variable name: I_up_78_BOSS-A
+
+ variable name: I_up_78_BOSS-B
+
+ variable name: I_up_78_LION-A
+
+ variable name: I_up_78_LION-B
+
+ variable name: I_up_78_GUAM-A
+
+ variable name: I_up_78_GUAM-B
+
+ variable name: I_up_78_PIKE-A
+
+ variable name: I_up_78_REEF-A
+
+ variable name: I_up_79_BOSS-A
+
+ variable name: I_up_79_BOSS-B
+
+ variable name: I_up_79_LION-A variable start: 705 variable end: 730
+
+ variable name: I_up_79_LION-B
+
+ variable name: I_up_79_PIKE-A
+
+ variable name: I_up_80_BOSS-A
+
+ variable name: I_up_80_BOSS-B
+
+ variable name: I_up_80_LION-A
+
+ variable name: I_up_80_LION-B
+
+ variable name: I_up_80_PIKE-A variable start: 735 variable end: 765
+
+ variable name: I_up_81_COOK-A
+
+ variable name: I_up_81_COOK-B
+
+ variable name: I_up_81_BOSS-A
+
+ variable name: I_up_81_BOSS-B
+
+ variable name: I_up_81_LION-A variable start: 745 variable end: 765
+
+ variable name: I_up_81_LION-B
+
+ variable name: I_up_81_PIKE-A
+
+ variable name: I_up_82_HULA-A
+
+ variable name: I_up_82_HULA-B
+
+ variable name: I_up_82_COOK-A
+
+ variable name: I_up_82_COOK-B variable start: 750 variable end: 800
+
+ variable name: I_up_82_GUAM-A
+
+ variable name: I_up_82_GUAM-B
+
+ variable name: I_up_82_PIKE-A
+
+ variable name: I_up_83_POGO-A
+
+ variable name: I_up_83_POGO-B
+
+ variable name: I_up_83_POGO-C
+
+ variable name: I_up_83_HULA-A
+
+ variable name: I_up_83_HULA-B
+
+ variable name: I_up_83_COOK-A variable start: 750 variable end: 800
+
+ variable name: I_up_83_COOK-B
+
+ variable name: I_up_83_BOSS-A
+
+ variable name: I_up_83_BOSS-B
+
+ variable name: I_up_83_LION-A
+
+ variable name: I_up_83_LION-B
+
+ variable name: I_up_83_GUAM-A
+
+ variable name: I_up_83_GUAM-B
+
+ variable name: I_up_83_PIKE-A
+
+ variable name: I_up_84_INDI-A
+
+ variable name: I_up_84_LION-A
+
+ variable name: I_up_84_LION-B
+
+ variable name: I_up_84_GUAM-A
+
+ variable name: I_up_84_GUAM-B variable start: 765 variable end: 840
+
+ variable name: I_up_84_REEF-A
+
+ variable name: I_up_85_POGO-A
+
+ variable name: I_up_85_POGO-B
+
+ variable name: I_up_85_POGO-C variable start: 765 variable end: 785
+
+ variable name: I_up_85_COOK-A
+
+ variable name: I_up_85_COOK-B
+
+ variable name: I_up_85_INDI-A
+
+ variable name: I_up_85_BOSS-A
+
+ variable name: I_up_85_BOSS-B
+
+ variable name: I_up_85_LION-A
+
+ variable name: I_up_85_LION-B
+
+ variable name: I_up_85_PIKE-A
+
+ variable name: I_up_86_INDI-A variable start: 785 variable end: 810
+
+ variable name: I_up_86_BOSS-A
+
+ variable name: I_up_86_BOSS-B
+
+ variable name: I_up_86_LION-A
+
+ variable name: I_up_86_LION-B
+
+ variable name: I_up_87_INDI-A
+
+ variable name: I_up_87_BOSS-A variable start: 810 variable end: 830
+
+ variable name: I_up_87_BOSS-B
+
+ variable name: I_up_87_LION-A
+
+ variable name: I_up_87_LION-B
+
+ variable name: I_up_88_POGO-A
+
+ variable name: I_up_88_POGO-B
+
+ variable name: I_up_88_POGO-C
+
+ variable name: I_up_88_HULA-A
+
+ variable name: I_up_88_HULA-B
+
+ variable name: I_up_88_COOK-A
+
+ variable name: I_up_88_COOK-B variable start: 810 variable end: 870
+
+ variable name: I_up_88_INDI-A
+
+ variable name: I_up_88_BOSS-A
+
+ variable name: I_up_88_BOSS-B
+
+ variable name: I_up_88_LION-A
+
+ variable name: I_up_88_LION-B
+
+ variable name: I_up_88_GUAM-A
+
+ variable name: I_up_88_GUAM-B
+
+ variable name: I_up_88_PIKE-A
+
+ variable name: I_up_88_REEF-A
+
+ variable name: I_up_89_POGO-A
+
+ variable name: I_up_89_POGO-B variable start: 820 variable end: 850
+
+ variable name: I_up_89_POGO-C
+
+ variable name: I_up_89_HULA-A
+
+ variable name: I_up_89_HULA-B
+
+ variable name: I_up_89_COOK-A
+
+ variable name: I_up_89_COOK-B
+
+ variable name: I_up_89_INDI-A
+
+ variable name: I_up_89_BOSS-A
+
+ variable name: I_up_89_BOSS-B
+
+ variable name: I_up_89_LION-A
+
+ variable name: I_up_89_LION-B
+
+ variable name: I_up_89_GUAM-A
+
+ variable name: I_up_89_GUAM-B
+
+ variable name: I_up_89_PIKE-A
+
+ variable name: I_up_89_REEF-A
+
+ variable name: I_up_90_POGO-A
+
+ variable name: I_up_90_POGO-B
+
+ variable name: I_up_90_POGO-C
+
+ variable name: I_up_90_HULA-A
+
+ variable name: I_up_90_HULA-B variable start: 825 variable end: 860
+
+ variable name: I_up_90_COOK-A
+
+ variable name: I_up_90_COOK-B
+
+ variable name: I_up_90_INDI-A
+
+ variable name: I_up_90_BOSS-A
+
+ variable name: I_up_90_BOSS-B
+
+ variable name: I_up_90_LION-A
+
+ variable name: I_up_90_LION-B
+
+ variable name: I_up_90_GUAM-A
+
+ variable name: I_up_90_GUAM-B
+
+ variable name: I_up_90_PIKE-A
+
+ variable name: I_up_90_REEF-A
+
+ variable name: I_up_91_INDI-A variable start: 855 variable end: 890
+
+ variable name: I_up_91_GUAM-A
+
+ variable name: I_up_91_GUAM-B
+
+ variable name: I_up_91_REEF-A
+
+ variable name: I_up_92_POGO-A
+
+ variable name: I_up_92_POGO-B
+
+ variable name: I_up_92_POGO-C
+
+ variable name: I_up_92_HULA-A
+
+ variable name: I_up_92_HULA-B
+
+ variable name: I_up_92_COOK-A
+
+ variable name: I_up_92_COOK-B
+
+ variable name: I_up_92_INDI-A
+
+ variable name: I_up_92_BOSS-A
+
+ variable name: I_up_92_BOSS-B variable start: 870 variable end: 930
+
+ variable name: I_up_92_LION-A
+
+ variable name: I_up_92_LION-B
+
+ variable name: I_up_92_GUAM-A
+
+ variable name: I_up_92_GUAM-B
+
+ variable name: I_up_92_PIKE-A
+
+ variable name: I_up_92_REEF-A
+
+ variable name: I_up_93_POGO-A
+
+ variable name: I_up_93_POGO-B
+
+ variable name: I_up_93_POGO-C
+
+ variable name: I_up_93_HULA-A
+
+ variable name: I_up_93_HULA-B
+
+ variable name: I_up_93_COOK-A
+
+ variable name: I_up_93_COOK-B
+
+ variable name: I_up_93_INDI-A
+
+ variable name: I_up_93_BOSS-A
+
+ variable name: I_up_93_BOSS-B
+
+ variable name: I_up_93_LION-A
+
+ variable name: I_up_93_LION-B
+
+ variable name: I_up_93_GUAM-A
+
+ variable name: I_up_93_GUAM-B
+
+ variable name: I_up_93_PIKE-A variable start: 880 variable end: 910
+
+ variable name: I_up_94_INDI-A
+
+ variable name: I_up_94_BOSS-A
+
+ variable name: I_up_94_BOSS-B
+
+ variable name: I_up_94_LION-A
+
+ variable name: I_up_94_LION-B variable start: 885 variable end: 905
+
+ variable name: I_up_95_BOSS-A variable start: 915 variable end: 940
+
+ variable name: I_up_95_BOSS-B
+
+ variable name: I_up_95_LION-A
+
+ variable name: I_up_95_LION-B
+
+ variable name: I_up_95_PIKE-A
+
+ variable name: I_up_96_INDI-A
+
+ variable name: I_up_96_LION-A
+
+ variable name: I_up_96_LION-B
+
+ variable name: I_up_96_REEF-A variable start: 920 variable end: 955
+
+ variable name: I_up_97_HULA-A
+
+ variable name: I_up_97_HULA-B
+
+ variable name: I_up_97_COOK-A variable start: 925 variable end: 950
+
+ variable name: I_up_97_COOK-B
+
+ variable name: I_up_97_GUAM-A
+
+ variable name: I_up_97_GUAM-B
+
+ variable name: I_up_98_POGO-A
+
+ variable name: I_up_98_POGO-B
+
+ variable name: I_up_98_POGO-C
+
+ variable name: I_up_98_HULA-A
+
+ variable name: I_up_98_HULA-B
+
+ variable name: I_up_98_COOK-A
+
+ variable name: I_up_98_COOK-B
+
+ variable name: I_up_98_INDI-A
+
+ variable name: I_up_98_BOSS-A
+
+ variable name: I_up_98_BOSS-B
+
+ variable name: I_up_98_LION-A
+
+ variable name: I_up_98_LION-B
+
+ variable name: I_up_98_GUAM-A
+
+ variable name: I_up_98_GUAM-B
+
+ variable name: I_up_98_PIKE-A variable start: 925 variable end: 955
+
+ variable name: I_up_98_REEF-A
+
+ variable name: I_up_99_POGO-A
+
+ variable name: I_up_99_POGO-B
+
+ variable name: I_up_99_POGO-C
+
+ variable name: I_up_99_HULA-A
+
+ variable name: I_up_99_HULA-B
+
+ variable name: I_up_99_COOK-A
+
+ variable name: I_up_99_COOK-B
+
+ variable name: I_up_99_INDI-A variable start: 925 variable end: 970
+
+ variable name: I_up_99_BOSS-A
+
+ variable name: I_up_99_BOSS-B
+
+ variable name: I_up_99_LION-A
+
+ variable name: I_up_99_LION-B
+
+ variable name: I_up_99_GUAM-A
+
+ variable name: I_up_99_GUAM-B
+
+ variable name: I_up_99_PIKE-A
+
+ variable name: I_up_99_REEF-A
+
+ variable name: I_up_100_POGO-A
+
+ variable name: I_up_100_POGO-B
+
+ variable name: I_up_100_POGO-C
+
+ variable name: I_up_100_HULA-A
+
+ variable name: I_up_100_HULA-B
+
+ variable name: I_up_100_COOK-A
+
+ variable name: I_up_100_COOK-B variable start: 930 variable end: 960
+
+ variable name: I_up_100_INDI-A
+
+ variable name: I_up_100_BOSS-A
+
+ variable name: I_up_100_BOSS-B
+
+ variable name: I_up_100_LION-A
+
+ variable name: I_up_100_LION-B
+
+ variable name: I_up_100_GUAM-A
+
+ variable name: I_up_100_GUAM-B
+
+ variable name: I_up_100_PIKE-A
+
+ variable name: I_up_100_REEF-A
+
+ variable name: I_up_101_INDI-A
+
+ variable name: I_up_101_BOSS-A
+
+ variable name: I_up_101_BOSS-B
+
+ variable name: I_up_101_LION-A variable start: 950 variable end: 975
+
+ variable name: I_up_101_LION-B
+
+ variable name: I_up_102_POGO-A
+
+ variable name: I_up_102_POGO-B
+
+ variable name: I_up_102_POGO-C
+
+ variable name: I_up_102_HULA-A
+
+ variable name: I_up_102_HULA-B
+
+ variable name: I_up_102_COOK-A
+
+ variable name: I_up_102_COOK-B
+
+ variable name: I_up_102_INDI-A
+
+ variable name: I_up_102_BOSS-A
+
+ variable name: I_up_102_BOSS-B
+
+ variable name: I_up_102_LION-A
+
+ variable name: I_up_102_LION-B
+
+ variable name: I_up_102_GUAM-A
+
+ variable name: I_up_102_GUAM-B variable start: 960 variable end: 1020
+
+ variable name: I_up_102_PIKE-A
+
+ variable name: I_up_102_REEF-A
+
+ variable name: I_up_103_POGO-A
+
+ variable name: I_up_103_POGO-B
+
+ variable name: I_up_103_POGO-C
+
+ variable name: I_up_103_HULA-A
+
+ variable name: I_up_103_HULA-B
+
+ variable name: I_up_103_COOK-A
+
+ variable name: I_up_103_COOK-B
+
+ variable name: I_up_103_INDI-A
+
+ variable name: I_up_103_BOSS-A
+
+ variable name: I_up_103_BOSS-B
+
+ variable name: I_up_103_LION-A
+
+ variable name: I_up_103_LION-B
+
+ variable name: I_up_103_GUAM-A
+
+ variable name: I_up_103_GUAM-B
+
+ variable name: I_up_103_PIKE-A
+
+ variable name: I_up_103_REEF-A variable start: 970 variable end: 995
+
+ variable name: I_up_104_INDI-A
+
+ variable name: I_up_104_LION-A
+
+ variable name: I_up_104_LION-B variable start: 975 variable end: 1010
+
+ variable name: I_up_104_GUAM-A
+
+ variable name: I_up_104_GUAM-B
+
+ variable name: I_up_104_REEF-A
+
+ variable name: I_up_105_POGO-A variable start: 975 variable end: 1000
+
+ variable name: I_up_105_POGO-B
+
+ variable name: I_up_105_POGO-C
+
+ variable name: I_up_105_COOK-A
+
+ variable name: I_up_105_COOK-B
+
+ variable name: I_up_105_INDI-A
+
+ variable name: I_up_105_BOSS-A
+
+ variable name: I_up_105_BOSS-B
+
+ variable name: I_up_105_LION-A
+
+ variable name: I_up_105_LION-B
+
+ variable name: I_up_105_PIKE-A
+
+ variable name: I_up_106_HULA-A
+
+ variable name: I_up_106_HULA-B
+
+ variable name: I_up_106_COOK-A
+
+ variable name: I_up_106_COOK-B variable start: 975 variable end: 1010
+
+ variable name: I_up_106_GUAM-A
+
+ variable name: I_up_106_GUAM-B
+
+ variable name: I_up_106_PIKE-A
+
+ variable name: I_up_107_HULA-A
+
+ variable name: I_up_107_HULA-B
+
+ variable name: I_up_107_COOK-A variable start: 990 variable end: 1020
+
+ variable name: I_up_107_COOK-B
+
+ variable name: I_up_107_BOSS-A
+
+ variable name: I_up_107_BOSS-B
+
+ variable name: I_up_107_PIKE-A
+
+ variable name: I_up_108_BOSS-A
+
+ variable name: I_up_108_BOSS-B
+
+ variable name: I_up_108_LION-A
+
+ variable name: I_up_108_LION-B
+
+ variable name: I_up_108_PIKE-A variable start: 1005 variable end: 1040
+
+ variable name: I_up_109_POGO-A
+
+ variable name: I_up_109_POGO-B
+
+ variable name: I_up_109_POGO-C
+
+ variable name: I_up_109_HULA-A
+
+ variable name: I_up_109_HULA-B
+
+ variable name: I_up_109_COOK-A
+
+ variable name: I_up_109_COOK-B
+
+ variable name: I_up_109_INDI-A
+
+ variable name: I_up_109_BOSS-A
+
+ variable name: I_up_109_BOSS-B variable start: 1005 variable end: 1035
+
+ variable name: I_up_109_LION-A
+
+ variable name: I_up_109_LION-B
+
+ variable name: I_up_109_GUAM-A
+
+ variable name: I_up_109_GUAM-B
+
+ variable name: I_up_109_PIKE-A
+
+ variable name: I_up_109_REEF-A
+
+ variable name: I_up_110_INDI-A
+
+ variable name: I_up_110_LION-A
+
+ variable name: I_up_110_LION-B variable start: 1020 variable end: 1040
+
+ variable name: I_up_110_REEF-A
+
+ variable name: I_up_111_INDI-A
+
+ variable name: I_up_111_BOSS-A variable start: 1025 variable end: 1050
+
+ variable name: I_up_111_BOSS-B
+
+ variable name: I_up_111_LION-A
+
+ variable name: I_up_111_LION-B
+
+ variable name: I_up_112_POGO-A
+
+ variable name: I_up_112_POGO-B
+
+ variable name: I_up_112_POGO-C
+
+ variable name: I_up_112_HULA-A
+
+ variable name: I_up_112_HULA-B
+
+ variable name: I_up_112_COOK-A variable start: 1025 variable end: 1050
+
+ variable name: I_up_112_COOK-B
+
+ variable name: I_up_112_INDI-A
+
+ variable name: I_up_112_BOSS-A
+
+ variable name: I_up_112_BOSS-B
+
+ variable name: I_up_112_LION-A
+
+ variable name: I_up_112_LION-B
+
+ variable name: I_up_112_GUAM-A
+
+ variable name: I_up_112_GUAM-B
+
+ variable name: I_up_112_PIKE-A
+
+ variable name: I_up_113_POGO-A
+
+ variable name: I_up_113_POGO-B
+
+ variable name: I_up_113_POGO-C
+
+ variable name: I_up_113_HULA-A variable start: 1050 variable end: 1080
+
+ variable name: I_up_113_HULA-B
+
+ variable name: I_up_113_COOK-A
+
+ variable name: I_up_113_COOK-B
+
+ variable name: I_up_113_INDI-A
+
+ variable name: I_up_113_BOSS-A
+
+ variable name: I_up_113_BOSS-B
+
+ variable name: I_up_113_LION-A
+
+ variable name: I_up_113_LION-B
+
+ variable name: I_up_113_GUAM-A
+
+ variable name: I_up_113_GUAM-B
+
+ variable name: I_up_113_PIKE-A
+
+ variable name: I_up_113_REEF-A
+
+ variable name: I_up_114_INDI-A
+
+ variable name: I_up_114_GUAM-A variable start: 1065 variable end: 1100
+
+ variable name: I_up_114_GUAM-B
+
+ variable name: I_up_114_REEF-A
+
+ variable name: I_up_115_INDI-A variable start: 1065 variable end: 1100
+
+ variable name: I_up_115_LION-A
+
+ variable name: I_up_115_LION-B
+
+ variable name: I_up_115_REEF-A
+
+ variable name: I_up_116_POGO-A
+
+ variable name: I_up_116_POGO-B
+
+ variable name: I_up_116_POGO-C
+
+ variable name: I_up_116_HULA-A
+
+ variable name: I_up_116_HULA-B variable start: 1075 variable end: 1105
+
+ variable name: I_up_116_COOK-A
+
+ variable name: I_up_116_COOK-B
+
+ variable name: I_up_116_INDI-A
+
+ variable name: I_up_116_BOSS-A
+
+ variable name: I_up_116_BOSS-B
+
+ variable name: I_up_116_LION-A
+
+ variable name: I_up_116_LION-B
+
+ variable name: I_up_116_GUAM-A
+
+ variable name: I_up_116_GUAM-B
+
+ variable name: I_up_116_PIKE-A
+
+ variable name: I_up_116_REEF-A
+
+ variable name: I_up_117_POGO-A
+
+ variable name: I_up_117_POGO-B
+
+ variable name: I_up_117_POGO-C
+
+ variable name: I_up_117_HULA-A
+
+ variable name: I_up_117_HULA-B
+
+ variable name: I_up_117_COOK-A
+
+ variable name: I_up_117_COOK-B
+
+ variable name: I_up_117_INDI-A
+
+ variable name: I_up_117_BOSS-A
+
+ variable name: I_up_117_BOSS-B
+
+ variable name: I_up_117_LION-A
+
+ variable name: I_up_117_LION-B
+
+ variable name: I_up_117_GUAM-A
+
+ variable name: I_up_117_GUAM-B
+
+ variable name: I_up_117_PIKE-A
+
+ variable name: I_up_117_REEF-A variable start: 1080 variable end: 1140
+
+ variable name: I_up_118_POGO-A
+
+ variable name: I_up_118_POGO-B
+
+ variable name: I_up_118_POGO-C
+
+ variable name: I_up_118_HULA-A
+
+ variable name: I_up_118_HULA-B
+
+ variable name: I_up_118_COOK-A
+
+ variable name: I_up_118_COOK-B
+
+ variable name: I_up_118_INDI-A
+
+ variable name: I_up_118_BOSS-A
+
+ variable name: I_up_118_BOSS-B
+
+ variable name: I_up_118_LION-A
+
+ variable name: I_up_118_LION-B
+
+ variable name: I_up_118_GUAM-A
+
+ variable name: I_up_118_GUAM-B variable start: 1085 variable end: 1110
+
+ variable name: I_up_118_PIKE-A
+
+ variable name: I_up_118_REEF-A
+
+ variable name: I_up_119_BOSS-A
+
+ variable name: I_up_119_BOSS-B
+
+ variable name: I_up_119_LION-A
+
+ variable name: I_up_119_LION-B
+
+ variable name: I_up_119_PIKE-A variable start: 1095 variable end: 1125
+
+ variable name: I_up_120_INDI-A
+
+ variable name: I_up_120_LION-A
+
+ variable name: I_up_120_LION-B
+
+ variable name: I_up_120_GUAM-A variable start: 1100 variable end: 1190
+
+ variable name: I_up_120_GUAM-B
+
+ variable name: I_up_120_REEF-A
+
+ variable name: I_up_121_HULA-A
+
+ variable name: I_up_121_HULA-B
+
+ variable name: I_up_121_COOK-A variable start: 1110 variable end: 1150
+
+ variable name: I_up_121_COOK-B
+
+ variable name: I_up_121_GUAM-A
+
+ variable name: I_up_121_GUAM-B
+
+ variable name: I_up_121_PIKE-A
+
+ variable name: I_up_122_POGO-A
+
+ variable name: I_up_122_POGO-B
+
+ variable name: I_up_122_POGO-C
+
+ variable name: I_up_122_HULA-A
+
+ variable name: I_up_122_HULA-B
+
+ variable name: I_up_122_COOK-A
+
+ variable name: I_up_122_COOK-B
+
+ variable name: I_up_122_INDI-A
+
+ variable name: I_up_122_BOSS-A variable start: 1110 variable end: 1140
+
+ variable name: I_up_122_BOSS-B
+
+ variable name: I_up_122_LION-A
+
+ variable name: I_up_122_LION-B
+
+ variable name: I_up_122_GUAM-A
+
+ variable name: I_up_122_GUAM-B
+
+ variable name: I_up_122_PIKE-A
+
+ variable name: I_up_122_REEF-A
+
+ variable name: I_up_123_HULA-A
+
+ variable name: I_up_123_HULA-B variable start: 1115 variable end: 1140
+
+ variable name: I_up_123_COOK-A
+
+ variable name: I_up_123_COOK-B
+
+ variable name: I_up_123_BOSS-A
+
+ variable name: I_up_123_BOSS-B
+
+ variable name: I_up_123_PIKE-A
+
+ variable name: I_up_124_HULA-A
+
+ variable name: I_up_124_HULA-B
+
+ variable name: I_up_124_COOK-A
+
+ variable name: I_up_124_COOK-B variable start: 1125 variable end: 1145
+
+ variable name: I_up_124_BOSS-A
+
+ variable name: I_up_124_BOSS-B
+
+ variable name: I_up_124_PIKE-A
+
+ variable name: I_up_125_POGO-A
+
+ variable name: I_up_125_POGO-B
+
+ variable name: I_up_125_POGO-C variable start: 1125 variable end: 1150
+
+ variable name: I_up_125_HULA-A
+
+ variable name: I_up_125_HULA-B
+
+ variable name: I_up_125_COOK-A
+
+ variable name: I_up_125_COOK-B
+
+ variable name: I_up_125_INDI-A
+
+ variable name: I_up_125_BOSS-A
+
+ variable name: I_up_125_BOSS-B
+
+ variable name: I_up_125_LION-A
+
+ variable name: I_up_125_LION-B
+
+ variable name: I_up_125_GUAM-A
+
+ variable name: I_up_125_GUAM-B
+
+ variable name: I_up_125_PIKE-A
+
+ variable name: I_up_125_REEF-A
+
+ variable name: I_up_126_POGO-A
+
+ variable name: I_up_126_POGO-B
+
+ variable name: I_up_126_POGO-C
+
+ variable name: I_up_126_HULA-A variable start: 1140 variable end: 1165
+
+ variable name: I_up_126_HULA-B
+
+ variable name: I_up_126_COOK-A
+
+ variable name: I_up_126_COOK-B
+
+ variable name: I_up_126_INDI-A
+
+ variable name: I_up_126_BOSS-A
+
+ variable name: I_up_126_BOSS-B
+
+ variable name: I_up_126_LION-A
+
+ variable name: I_up_126_LION-B
+
+ variable name: I_up_126_GUAM-A
+
+ variable name: I_up_126_GUAM-B
+
+ variable name: I_up_126_PIKE-A
+
+ variable name: I_up_126_REEF-A
+
+ variable name: I_up_127_HULA-A
+
+ variable name: I_up_127_HULA-B
+
+ variable name: I_up_127_GUAM-A
+
+ variable name: I_up_127_GUAM-B variable start: 1155 variable end: 1175
+
+ variable name: I_up_127_REEF-A
+
+ variable name: I_up_128_POGO-A
+
+ variable name: I_up_128_POGO-B
+
+ variable name: I_up_128_POGO-C
+
+ variable name: I_up_128_HULA-A
+
+ variable name: I_up_128_HULA-B
+
+ variable name: I_up_128_COOK-A
+
+ variable name: I_up_128_COOK-B
+
+ variable name: I_up_128_INDI-A
+
+ variable name: I_up_128_BOSS-A
+
+ variable name: I_up_128_BOSS-B
+
+ variable name: I_up_128_LION-A
+
+ variable name: I_up_128_LION-B variable start: 1155 variable end: 1185
+
+ variable name: I_up_128_GUAM-A
+
+ variable name: I_up_128_GUAM-B
+
+ variable name: I_up_128_PIKE-A
+
+ variable name: I_up_128_REEF-A
+
+ variable name: I_up_129_BOSS-A variable start: 1190 variable end: 1225
+
+ variable name: I_up_129_BOSS-B
+
+ variable name: I_up_129_LION-A
+
+ variable name: I_up_129_LION-B
+
+ variable name: I_up_129_PIKE-A
+
+ variable name: I_up_130_INDI-A
+
+ variable name: I_up_130_LION-A
+
+ variable name: I_up_130_LION-B
+
+ variable name: I_up_130_REEF-A variable start: 1192 variable end: 1217
+
+ variable name: I_up_131_HULA-A
+
+ variable name: I_up_131_HULA-B
+
+ variable name: I_up_131_COOK-A variable start: 1195 variable end: 1255
+
+ variable name: I_up_131_COOK-B
+
+ variable name: I_up_131_BOSS-A
+
+ variable name: I_up_131_BOSS-B
+
+ variable name: I_up_131_PIKE-A
+
+ variable name: I_up_132_INDI-A
+
+ variable name: I_up_132_BOSS-A
+
+ variable name: I_up_132_BOSS-B variable start: 1195 variable end: 1225
+
+ variable name: I_up_132_LION-A
+
+ variable name: I_up_132_LION-B
+
+ variable name: I_up_133_POGO-A
+
+ variable name: I_up_133_POGO-B
+
+ variable name: I_up_133_POGO-C
+
+ variable name: I_up_133_HULA-A
+
+ variable name: I_up_133_HULA-B
+
+ variable name: I_up_133_COOK-A
+
+ variable name: I_up_133_COOK-B variable start: 1200 variable end: 1255
+
+ variable name: I_up_133_INDI-A
+
+ variable name: I_up_133_BOSS-A
+
+ variable name: I_up_133_BOSS-B
+
+ variable name: I_up_133_LION-A
+
+ variable name: I_up_133_LION-B
+
+ variable name: I_up_133_GUAM-A
+
+ variable name: I_up_133_GUAM-B
+
+ variable name: I_up_133_PIKE-A
+
+ variable name: I_up_133_REEF-A
+
+ variable name: I_up_134_POGO-A
+
+ variable name: I_up_134_POGO-B
+
+ variable name: I_up_134_POGO-C
+
+ variable name: I_up_134_HULA-A
+
+ variable name: I_up_134_HULA-B
+
+ variable name: I_up_134_COOK-A
+
+ variable name: I_up_134_COOK-B
+
+ variable name: I_up_134_INDI-A
+
+ variable name: I_up_134_BOSS-A variable start: 1235 variable end: 1275
+
+ variable name: I_up_134_BOSS-B
+
+ variable name: I_up_134_LION-A
+
+ variable name: I_up_134_LION-B
+
+ variable name: I_up_134_GUAM-A
+
+ variable name: I_up_134_GUAM-B
+
+ variable name: I_up_134_PIKE-A
+
+ variable name: I_up_135_HULA-A
+
+ variable name: I_up_135_HULA-B
+
+ variable name: I_up_135_COOK-A
+
+ variable name: I_up_135_COOK-B
+
+ variable name: I_up_135_GUAM-A
+
+ variable name: I_up_135_GUAM-B variable start: 1245 variable end: 1270
+
+ variable name: I_up_136_POGO-A
+
+ variable name: I_up_136_POGO-B
+
+ variable name: I_up_136_POGO-C
+
+ variable name: I_up_136_HULA-A variable start: 1255 variable end: 1310
+
+ variable name: I_up_136_HULA-B
+
+ variable name: I_up_136_COOK-A
+
+ variable name: I_up_136_COOK-B
+
+ variable name: I_up_136_INDI-A
+
+ variable name: I_up_136_BOSS-A
+
+ variable name: I_up_136_BOSS-B
+
+ variable name: I_up_136_LION-A
+
+ variable name: I_up_136_LION-B
+
+ variable name: I_up_136_GUAM-A
+
+ variable name: I_up_136_GUAM-B
+
+ variable name: I_up_136_PIKE-A
+
+ variable name: I_up_136_REEF-A
+
+ variable name: I_up_137_INDI-A
+
+ variable name: I_up_137_BOSS-A
+
+ variable name: I_up_137_BOSS-B variable start: 1265 variable end: 1290
+
+ variable name: I_up_137_LION-A
+
+ variable name: I_up_137_LION-B
+
+ variable name: I_up_138_HULA-A
+
+ variable name: I_up_138_HULA-B
+
+ variable name: I_up_138_COOK-A variable start: 1270 variable end: 1295
+
+ variable name: I_up_138_COOK-B
+
+ variable name: I_up_138_GUAM-A
+
+ variable name: I_up_138_GUAM-B
+
+ variable name: I_up_139_POGO-A
+
+ variable name: I_up_139_POGO-B
+
+ variable name: I_up_139_POGO-C
+
+ variable name: I_up_139_HULA-A
+
+ variable name: I_up_139_HULA-B
+
+ variable name: I_up_139_COOK-A
+
+ variable name: I_up_139_COOK-B
+
+ variable name: I_up_139_INDI-A
+
+ variable name: I_up_139_BOSS-A
+
+ variable name: I_up_139_BOSS-B
+
+ variable name: I_up_139_LION-A
+
+ variable name: I_up_139_LION-B
+
+ variable name: I_up_139_GUAM-A variable start: 1305 variable end: 1335
+
+ variable name: I_up_139_GUAM-B
+
+ variable name: I_up_139_PIKE-A
+
+ variable name: I_up_139_REEF-A
+
+ variable name: I_up_140_POGO-A
+
+ variable name: I_up_140_POGO-B
+
+ variable name: I_up_140_POGO-C
+
+ variable name: I_up_140_HULA-A
+
+ variable name: I_up_140_HULA-B
+
+ variable name: I_up_140_COOK-A
+
+ variable name: I_up_140_COOK-B variable start: 1315 variable end: 1342
+
+ variable name: I_up_140_INDI-A
+
+ variable name: I_up_140_BOSS-A
+
+ variable name: I_up_140_BOSS-B
+
+ variable name: I_up_140_LION-A
+
+ variable name: I_up_140_LION-B
+
+ variable name: I_up_140_GUAM-A
+
+ variable name: I_up_140_GUAM-B
+
+ variable name: I_up_140_PIKE-A
+
+ variable name: I_up_141_BOSS-A
+
+ variable name: I_up_141_BOSS-B
+
+ variable name: I_up_141_LION-A
+
+ variable name: I_up_141_LION-B
+
+ variable name: I_up_141_PIKE-A variable start: 1330 variable end: 1350
+
+ variable name: I_up_142_POGO-A
+
+ variable name: I_up_142_POGO-B
+
+ variable name: I_up_142_POGO-C
+
+ variable name: I_up_142_HULA-A
+
+ variable name: I_up_142_HULA-B variable start: 1330 variable end: 1360
+
+ variable name: I_up_142_COOK-A
+
+ variable name: I_up_142_COOK-B
+
+ variable name: I_up_142_INDI-A
+
+ variable name: I_up_142_BOSS-A
+
+ variable name: I_up_142_BOSS-B
+
+ variable name: I_up_142_LION-A
+
+ variable name: I_up_142_LION-B
+
+ variable name: I_up_142_GUAM-A
+
+ variable name: I_up_142_GUAM-B
+
+ variable name: I_up_142_PIKE-A
+
+ variable name: I_up_143_COOK-A variable start: 1335 variable end: 1365
+
+ variable name: I_up_143_COOK-B
+
+ variable name: I_up_143_BOSS-A
+
+ variable name: I_up_143_BOSS-B
+
+ variable name: I_up_143_LION-A
+
+ variable name: I_up_143_LION-B
+
+ variable name: I_up_143_PIKE-A
+
+ variable name: I_up_144_INDI-A
+
+ variable name: I_up_144_LION-A
+
+ variable name: I_up_144_LION-B
+
+ variable name: I_up_144_GUAM-A
+
+ variable name: I_up_144_GUAM-B variable start: 1335 variable end: 1360
+
+ variable name: I_up_144_REEF-A
+
+ variable name: I_up_145_INDI-A
+
+ variable name: I_up_145_GUAM-A variable start: 1335 variable end: 1370
+
+ variable name: I_up_145_GUAM-B
+
+ variable name: I_up_145_REEF-A
+
+ variable name: I_up_146_INDI-A variable start: 1350 variable end: 1370
+
+ variable name: I_up_146_BOSS-A
+
+ variable name: I_up_146_BOSS-B
+
+ variable name: I_up_146_LION-A
+
+ variable name: I_up_146_LION-B
+
+ variable name: I_up_147_BOSS-A
+
+ variable name: I_up_147_BOSS-B
+
+ variable name: I_up_147_LION-A
+
+ variable name: I_up_147_LION-B
+
+ variable name: I_up_147_PIKE-A variable start: 1365 variable end: 1400
+
+ variable name: I_up_148_BOSS-A variable start: 1365 variable end: 1400
+
+ variable name: I_up_148_BOSS-B
+
+ variable name: I_up_148_LION-A
+
+ variable name: I_up_148_LION-B
+
+ variable name: I_up_148_PIKE-A
+
+ variable name: I_up_149_POGO-A
+
+ variable name: I_up_149_POGO-B
+
+ variable name: I_up_149_POGO-C
+
+ variable name: I_up_149_COOK-A
+
+ variable name: I_up_149_COOK-B
+
+ variable name: I_up_149_INDI-A
+
+ variable name: I_up_149_BOSS-A
+
+ variable name: I_up_149_BOSS-B
+
+ variable name: I_up_149_LION-A variable start: 1365 variable end: 1390
+
+ variable name: I_up_149_LION-B
+
+ variable name: I_up_149_PIKE-A
+
+ variable name: I_up_150_POGO-A
+
+ variable name: I_up_150_POGO-B
+
+ variable name: I_up_150_POGO-C
+
+ variable name: I_up_150_HULA-A
+
+ variable name: I_up_150_HULA-B
+
+ variable name: I_up_150_COOK-A
+
+ variable name: I_up_150_COOK-B
+
+ variable name: I_up_150_INDI-A
+
+ variable name: I_up_150_BOSS-A
+
+ variable name: I_up_150_BOSS-B
+
+ variable name: I_up_150_LION-A
+
+ variable name: I_up_150_LION-B
+
+ variable name: I_up_150_GUAM-A
+
+ variable name: I_up_150_GUAM-B variable start: 1365 variable end: 1395
+
+ variable name: I_up_150_PIKE-A
+
+ variable name: I_up_150_REEF-A
+
+ variable name: I_up_151_POGO-A
+
+ variable name: I_up_151_POGO-B
+
+ variable name: I_up_151_POGO-C
+
+ variable name: I_up_151_HULA-A
+
+ variable name: I_up_151_HULA-B
+
+ variable name: I_up_151_COOK-A
+
+ variable name: I_up_151_COOK-B
+
+ variable name: I_up_151_INDI-A
+
+ variable name: I_up_151_BOSS-A
+
+ variable name: I_up_151_BOSS-B
+
+ variable name: I_up_151_LION-A
+
+ variable name: I_up_151_LION-B
+
+ variable name: I_up_151_GUAM-A variable start: 1370 variable end: 1420
+
+ variable name: I_up_151_GUAM-B
+
+ variable name: I_up_151_PIKE-A
+
+ variable name: I_up_152_INDI-A
+
+ variable name: I_up_152_LION-A
+
+ variable name: I_up_152_LION-B variable start: 1395 variable end: 1430
+
+ variable name: I_up_152_GUAM-A
+
+ variable name: I_up_152_GUAM-B
+
+ variable name: I_up_152_REEF-A
+
+ variable name: I_up_153_POGO-A variable start: 1395 variable end: 1420
+
+ variable name: I_up_153_POGO-B
+
+ variable name: I_up_153_POGO-C
+
+ variable name: I_up_153_HULA-A
+
+ variable name: I_up_153_HULA-B
+
+ variable name: I_up_153_COOK-A
+
+ variable name: I_up_153_COOK-B
+
+ variable name: I_up_153_INDI-A
+
+ variable name: I_up_153_BOSS-A
+
+ variable name: I_up_153_BOSS-B
+
+ variable name: I_up_153_LION-A
+
+ variable name: I_up_153_LION-B
+
+ variable name: I_up_153_GUAM-A
+
+ variable name: I_up_153_GUAM-B
+
+ variable name: I_up_153_PIKE-A
+
+ variable name: I_up_153_REEF-A
+
+ variable name: I_up_154_INDI-A
+
+ variable name: I_up_154_LION-A variable start: 1400 variable end: 1435
+
+ variable name: I_up_154_LION-B
+
+ variable name: I_up_154_REEF-A
+
+ variable name: I_up_155_INDI-A variable start: 1408 variable end: 1433
+
+ variable name: I_up_155_LION-A
+
+ variable name: I_up_155_LION-B
+
+ variable name: I_up_155_REEF-A
+
