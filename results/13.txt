@@ -9,7 +9,7 @@ EffectiveWorkers: 4
 ExtractionTime: 0.00999999
 FailStatus: SearchHasFailedNormally
 IterativeDivingIdleTime: 0
-MemoryUsage: 53088387
+MemoryUsage: 53118891
 MultiPointIdleTime: 0
 NeighborhoodIdleTime: 0
 NumberOfAuxiliaryVariables: 0
@@ -37,13 +37,13 @@ NumberOfUnboundModelVariables: 0
 NumberOfUnboundModelVariablesInLogPeriod: 1538
 NumberOfVariables: 2264
 NumberOfWarnings: 0
-PeakMemoryUsage: 53789619
+PeakMemoryUsage: 54939107
 PresolveTime: 0.00999999
 RestartIdleTime: 0
 SearchStatus: SearchCompleted
 SearchStopCause: SearchHasNotBeenStopped
-SolveTime: 13.11
-TotalTime: 13.11
+SolveTime: 12.94
+TotalTime: 12.94
 Processor: arm
 Cores: 12
 Memory: 25769803776

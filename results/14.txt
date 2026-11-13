@@ -9,7 +9,7 @@ EffectiveWorkers: 4
 ExtractionTime: 0.00999999
 FailStatus: SearchHasFailedNormally
 IterativeDivingIdleTime: 0
-MemoryUsage: 52602489
+MemoryUsage: 52698609
 MultiPointIdleTime: 0
 NeighborhoodIdleTime: 0
 NumberOfAuxiliaryVariables: 0
