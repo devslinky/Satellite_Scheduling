@@ -4,18 +4,13 @@ from Dispatch_rule import *
 import sys
 
 def main():
-    method = input("which method (cp/dispatch)?: ") # i.e cp
-    data = input("input day of problem i.e. 12: ") # i.e 12
-    write_results = input("do you want to write results to file (y/n)?: ") # i.e y
-    if write_results == "y":
-        write = True
-    else: write= False   
+    method = "cp" # "cp" or "dispatch"
+    day = 18      # problem day, 12 - 18
 
     if method == "dispatch":
-        dispatch_heuristic(problem_data= data, write_results_to_file= write, combine_data= True)
+        dispatch_heuristic(problem_data= str(day), write_results_to_file= True, combine_data= True)
     else:
-        seconds = input("how long do you want to run program for? (in seconds): ") # i.e 60 : which is a minute
-        cp_model(problem_data= data, write_results_to_file= write, Timelimit = int(seconds), Workers = 4, combine_data= True)
+        cp_model(problem_data= str(day), write_results_to_file= True, Timelimit = int(60), Workers = 4, combine_data= True)
     return
 
 

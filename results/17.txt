@@ -9,14 +9,14 @@ EffectiveWorkers: 4
 ExtractionTime: 0.00999999
 FailStatus: SearchStoppedByLimit
 IterativeDivingIdleTime: 0
-MemoryUsage: 53763103
+MemoryUsage: 54088977
 MultiPointIdleTime: 0
 NeighborhoodIdleTime: 0
 NumberOfAuxiliaryVariables: 0
 NumberOfBlackboxCalls: 0
 NumberOfBlackboxes: 0
-NumberOfBranches: 67018817
-NumberOfChoicePoints: 4853435
+NumberOfBranches: 68526892
+NumberOfChoicePoints: 4965064
 NumberOfConstraints: 318
 NumberOfConstraintsAdded: 0
 NumberOfConstraintsAggregated: 0
@@ -26,7 +26,7 @@ NumberOfCriteria: 1
 NumberOfEngineConstraints: 43
 NumberOfEngineVariables: 2180
 NumberOfErrors: 0
-NumberOfFails: 3120841
+NumberOfFails: 3195395
 NumberOfIntegerVariables: 0
 NumberOfIntervalVariables: 2165
 NumberOfPresolveTransformations: 0
@@ -37,7 +37,7 @@ NumberOfUnboundModelVariables: 0
 NumberOfUnboundModelVariablesInLogPeriod: 2
 NumberOfVariables: 2184
 NumberOfWarnings: 0
-PeakMemoryUsage: 53951863
+PeakMemoryUsage: 54277737
 PresolveTime: 0.00999999
 RestartIdleTime: 0
 SearchStatus: SearchStopped

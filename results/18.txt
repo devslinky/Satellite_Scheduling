@@ -42,8 +42,8 @@ PresolveTime: 0.00999999
 RestartIdleTime: 0
 SearchStatus: SearchCompleted
 SearchStopCause: SearchHasNotBeenStopped
-SolveTime: 11.84
-TotalTime: 11.84
+SolveTime: 11.7
+TotalTime: 11.7
 Processor: arm
 Cores: 12
 Memory: 25769803776
