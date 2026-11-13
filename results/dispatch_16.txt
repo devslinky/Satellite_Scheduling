@@ -1,23 +1,24 @@
-Rule: EarliestEndTime
-Objective: 277
+Rule: EarliestDeadlineFirst
+Objective: 291
 NumberOfRequests: 305
-NumberOfOperations: 1900
-SolveTime: 0.054
+Unscheduled: 14
+NumberOfRequestAntennaPairs: 1900
+SolveTime: 0.059
 Processor: arm
 Cores: 8
 Memory: 8589934592
 
 
-Solution Objective value: (277,)
+Solution Objective value: (291,)
 
 
  variable name: I_lf_1_LION-A
 
  variable name: I_lf_1_LION-B
 
- variable name: I_lf_2_PIKE-A
+ variable name: I_lf_2_PIKE-A variable start: 7 variable end: 38
 
- variable name: I_lf_2_PIKE-B variable start: 7 variable end: 38
+ variable name: I_lf_2_PIKE-B
 
  variable name: I_lf_3_POGO-A variable start: 11 variable end: 43
 
@@ -35,7 +36,7 @@ Solution Objective value: (277,)
 
  variable name: I_lf_5_REEF-B
 
- variable name: I_lf_6_POGO-A
+ variable name: I_lf_6_POGO-A variable start: 47 variable end: 84
 
  variable name: I_lf_6_POGO-B
 
@@ -45,9 +46,9 @@ Solution Objective value: (277,)
 
  variable name: I_lf_7_BOSS-B
 
- variable name: I_lf_8_POGO-A variable start: 77 variable end: 109
+ variable name: I_lf_8_POGO-A
 
- variable name: I_lf_8_POGO-B
+ variable name: I_lf_8_POGO-B variable start: 77 variable end: 109
 
  variable name: I_lf_8_POGO-C
 
@@ -93,13 +94,13 @@ Solution Objective value: (277,)
 
  variable name: I_lf_17_POGO-B
 
- variable name: I_lf_17_POGO-C
+ variable name: I_lf_17_POGO-C variable start: 148 variable end: 184
 
  variable name: I_lf_18_HULA-A variable start: 167 variable end: 203
 
  variable name: I_lf_18_HULA-B
 
- variable name: I_lf_19_LION-A
+ variable name: I_lf_19_LION-A variable start: 183 variable end: 216
 
  variable name: I_lf_19_LION-B
 
@@ -115,9 +116,9 @@ Solution Objective value: (277,)
 
  variable name: I_lf_21_POGO-C
 
- variable name: I_lf_22_LION-A
+ variable name: I_lf_22_LION-A variable start: 231 variable end: 262
 
- variable name: I_lf_22_LION-B variable start: 231 variable end: 262
+ variable name: I_lf_22_LION-B
 
  variable name: I_lf_23_POGO-A variable start: 243 variable end: 278
 
@@ -131,13 +132,13 @@ Solution Objective value: (277,)
 
  variable name: I_lf_24_POGO-C
 
- variable name: I_lf_25_HULA-A
+ variable name: I_lf_25_HULA-A variable start: 269 variable end: 302
 
- variable name: I_lf_25_HULA-B variable start: 269 variable end: 302
+ variable name: I_lf_25_HULA-B
 
  variable name: I_lf_26_LION-A
 
- variable name: I_lf_26_LION-B
+ variable name: I_lf_26_LION-B variable start: 280 variable end: 314
 
  variable name: I_lf_27_PIKE-A variable start: 286 variable end: 321
 
@@ -163,13 +164,13 @@ Solution Objective value: (277,)
 
  variable name: I_lf_32_POGO-A
 
- variable name: I_lf_32_POGO-B
+ variable name: I_lf_32_POGO-B variable start: 340 variable end: 375
 
  variable name: I_lf_32_POGO-C
 
- variable name: I_lf_33_GUAM-A
+ variable name: I_lf_33_GUAM-A variable start: 347 variable end: 381
 
- variable name: I_lf_33_GUAM-B variable start: 347 variable end: 381
+ variable name: I_lf_33_GUAM-B
 
  variable name: I_lf_34_HULA-A variable start: 355 variable end: 390
 
@@ -179,17 +180,17 @@ Solution Objective value: (277,)
 
  variable name: I_lf_35_HULA-B variable start: 369 variable end: 404
 
- variable name: I_lf_36_POGO-A
+ variable name: I_lf_36_POGO-A variable start: 371 variable end: 404
 
- variable name: I_lf_36_POGO-B variable start: 371 variable end: 404
+ variable name: I_lf_36_POGO-B
 
  variable name: I_lf_36_POGO-C
 
  variable name: I_lf_37_POGO-A
 
- variable name: I_lf_37_POGO-B
+ variable name: I_lf_37_POGO-B variable start: 394 variable end: 427
 
- variable name: I_lf_37_POGO-C variable start: 394 variable end: 427
+ variable name: I_lf_37_POGO-C
 
  variable name: I_lf_38_INDI-A variable start: 397 variable end: 430
 
@@ -209,13 +210,13 @@ Solution Objective value: (277,)
 
  variable name: I_lf_41_BOSS-B
 
- variable name: I_lf_42_LION-A variable start: 433 variable end: 468
+ variable name: I_lf_42_LION-A
 
  variable name: I_lf_42_LION-B
 
- variable name: I_lf_43_REEF-A
+ variable name: I_lf_43_REEF-A variable start: 440 variable end: 476
 
- variable name: I_lf_43_REEF-B variable start: 440 variable end: 476
+ variable name: I_lf_43_REEF-B
 
  variable name: I_lf_44_GUAM-A variable start: 446 variable end: 476
 
@@ -229,7 +230,7 @@ Solution Objective value: (277,)
 
  variable name: I_lf_46_POGO-A
 
- variable name: I_lf_46_POGO-B
+ variable name: I_lf_46_POGO-B variable start: 469 variable end: 503
 
  variable name: I_lf_46_POGO-C
 
@@ -237,9 +238,9 @@ Solution Objective value: (277,)
 
  variable name: I_lf_47_HULA-B
 
- variable name: I_lf_48_BOSS-A
+ variable name: I_lf_48_BOSS-A variable start: 479 variable end: 512
 
- variable name: I_lf_48_BOSS-B variable start: 479 variable end: 512
+ variable name: I_lf_48_BOSS-B
 
  variable name: I_lf_49_POGO-A variable start: 496 variable end: 531
 
@@ -247,9 +248,9 @@ Solution Objective value: (277,)
 
  variable name: I_lf_49_POGO-C
 
- variable name: I_lf_50_PIKE-A
+ variable name: I_lf_50_PIKE-A variable start: 499 variable end: 535
 
- variable name: I_lf_50_PIKE-B variable start: 499 variable end: 535
+ variable name: I_lf_50_PIKE-B
 
  variable name: I_lf_51_POGO-A
 
@@ -261,23 +262,23 @@ Solution Objective value: (277,)
 
  variable name: I_lf_52_POGO-B
 
- variable name: I_lf_52_POGO-C
+ variable name: I_lf_52_POGO-C variable start: 525 variable end: 562
 
  variable name: I_lf_53_PIKE-A
 
- variable name: I_lf_53_PIKE-B
+ variable name: I_lf_53_PIKE-B variable start: 528 variable end: 560
 
- variable name: I_lf_54_BOSS-A
+ variable name: I_lf_54_BOSS-A variable start: 536 variable end: 567
 
- variable name: I_lf_54_BOSS-B variable start: 536 variable end: 567
+ variable name: I_lf_54_BOSS-B
 
  variable name: I_lf_55_BOSS-A
 
  variable name: I_lf_55_BOSS-B
 
- variable name: I_lf_56_POGO-A
+ variable name: I_lf_56_POGO-A variable start: 567 variable end: 602
 
- variable name: I_lf_56_POGO-B variable start: 567 variable end: 602
+ variable name: I_lf_56_POGO-B
 
  variable name: I_lf_56_POGO-C
 
@@ -291,9 +292,9 @@ Solution Objective value: (277,)
 
  variable name: I_lf_59_POGO-A
 
- variable name: I_lf_59_POGO-B
+ variable name: I_lf_59_POGO-B variable start: 593 variable end: 625
 
- variable name: I_lf_59_POGO-C variable start: 593 variable end: 625
+ variable name: I_lf_59_POGO-C
 
  variable name: I_lf_60_GUAM-A variable start: 603 variable end: 637
 
@@ -303,9 +304,9 @@ Solution Objective value: (277,)
 
  variable name: I_lf_61_BOSS-B variable start: 606 variable end: 643
 
- variable name: I_lf_62_POGO-A
+ variable name: I_lf_62_POGO-A variable start: 613 variable end: 649
 
- variable name: I_lf_62_POGO-B variable start: 613 variable end: 649
+ variable name: I_lf_62_POGO-B
 
  variable name: I_lf_62_POGO-C
 
@@ -313,11 +314,11 @@ Solution Objective value: (277,)
 
  variable name: I_lf_63_POGO-B
 
- variable name: I_lf_63_POGO-C
+ variable name: I_lf_63_POGO-C variable start: 622 variable end: 658
 
- variable name: I_lf_64_PIKE-A
+ variable name: I_lf_64_PIKE-A variable start: 624 variable end: 658
 
- variable name: I_lf_64_PIKE-B variable start: 624 variable end: 658
+ variable name: I_lf_64_PIKE-B
 
  variable name: I_lf_65_LION-A
 
@@ -327,9 +328,9 @@ Solution Objective value: (277,)
 
  variable name: I_lf_66_BOSS-B
 
- variable name: I_lf_67_REEF-A
+ variable name: I_lf_67_REEF-A variable start: 664 variable end: 698
 
- variable name: I_lf_67_REEF-B variable start: 664 variable end: 698
+ variable name: I_lf_67_REEF-B
 
  variable name: I_lf_68_POGO-A variable start: 664 variable end: 699
 
@@ -337,15 +338,15 @@ Solution Objective value: (277,)
 
  variable name: I_lf_68_POGO-C
 
- variable name: I_lf_69_PIKE-A
+ variable name: I_lf_69_PIKE-A variable start: 675 variable end: 710
 
- variable name: I_lf_69_PIKE-B variable start: 675 variable end: 710
+ variable name: I_lf_69_PIKE-B
 
  variable name: I_lf_70_POGO-A
 
- variable name: I_lf_70_POGO-B variable start: 694 variable end: 728
+ variable name: I_lf_70_POGO-B
 
- variable name: I_lf_70_POGO-C
+ variable name: I_lf_70_POGO-C variable start: 694 variable end: 728
 
  variable name: I_lf_71_HULA-A variable start: 696 variable end: 732
 
@@ -409,7 +410,7 @@ Solution Objective value: (277,)
 
  variable name: I_lf_83_LION-A
 
- variable name: I_lf_83_LION-B
+ variable name: I_lf_83_LION-B variable start: 827 variable end: 861
 
  variable name: I_lf_84_COOK-A variable start: 840 variable end: 876
 
@@ -437,15 +438,15 @@ Solution Objective value: (277,)
 
  variable name: I_lf_88_POGO-C
 
- variable name: I_lf_89_GUAM-A
+ variable name: I_lf_89_GUAM-A variable start: 895 variable end: 931
 
- variable name: I_lf_89_GUAM-B variable start: 895 variable end: 931
+ variable name: I_lf_89_GUAM-B
 
  variable name: I_lf_90_REEF-A variable start: 901 variable end: 932
 
  variable name: I_lf_90_REEF-B
 
- variable name: I_lf_91_LION-A variable start: 909 variable end: 944
+ variable name: I_lf_91_LION-A
 
  variable name: I_lf_91_LION-B
 
@@ -469,7 +470,7 @@ Solution Objective value: (277,)
 
  variable name: I_lf_95_POGO-B
 
- variable name: I_lf_95_POGO-C
+ variable name: I_lf_95_POGO-C variable start: 935 variable end: 966
 
  variable name: I_lf_96_COOK-A variable start: 942 variable end: 975
 
@@ -479,17 +480,17 @@ Solution Objective value: (277,)
 
  variable name: I_lf_97_HULA-B
 
- variable name: I_lf_98_REEF-A
+ variable name: I_lf_98_REEF-A variable start: 955 variable end: 993
 
- variable name: I_lf_98_REEF-B variable start: 955 variable end: 993
+ variable name: I_lf_98_REEF-B
 
  variable name: I_lf_99_HULA-A variable start: 980 variable end: 1014
 
  variable name: I_lf_99_HULA-B
 
- variable name: I_lf_100_POGO-A
+ variable name: I_lf_100_POGO-A variable start: 1000 variable end: 1036
 
- variable name: I_lf_100_POGO-B variable start: 1000 variable end: 1036
+ variable name: I_lf_100_POGO-B
 
  variable name: I_lf_100_POGO-C
 
@@ -497,21 +498,21 @@ Solution Objective value: (277,)
 
  variable name: I_lf_101_GUAM-B
 
- variable name: I_lf_102_LION-A
+ variable name: I_lf_102_LION-A variable start: 1018 variable end: 1050
 
- variable name: I_lf_102_LION-B variable start: 1018 variable end: 1050
+ variable name: I_lf_102_LION-B
 
- variable name: I_lf_103_POGO-A variable start: 1028 variable end: 1061
+ variable name: I_lf_103_POGO-A
 
- variable name: I_lf_103_POGO-B
+ variable name: I_lf_103_POGO-B variable start: 1028 variable end: 1061
 
  variable name: I_lf_103_POGO-C
 
- variable name: I_lf_104_BOSS-A
+ variable name: I_lf_104_BOSS-A variable start: 1030 variable end: 1066
 
- variable name: I_lf_104_BOSS-B variable start: 1030 variable end: 1066
+ variable name: I_lf_104_BOSS-B
 
- variable name: I_lf_105_LION-A variable start: 1040 variable end: 1073
+ variable name: I_lf_105_LION-A
 
  variable name: I_lf_105_LION-B
 
@@ -519,9 +520,9 @@ Solution Objective value: (277,)
 
  variable name: I_lf_106_HULA-B
 
- variable name: I_lf_107_POGO-A
+ variable name: I_lf_107_POGO-A variable start: 1051 variable end: 1086
 
- variable name: I_lf_107_POGO-B variable start: 1051 variable end: 1086
+ variable name: I_lf_107_POGO-B
 
  variable name: I_lf_107_POGO-C
 
@@ -529,9 +530,9 @@ Solution Objective value: (277,)
 
  variable name: I_lf_108_GUAM-B
 
- variable name: I_lf_109_POGO-A
+ variable name: I_lf_109_POGO-A variable start: 1100 variable end: 1137
 
- variable name: I_lf_109_POGO-B variable start: 1100 variable end: 1137
+ variable name: I_lf_109_POGO-B
 
  variable name: I_lf_109_POGO-C
 
@@ -547,9 +548,9 @@ Solution Objective value: (277,)
 
  variable name: I_lf_112_PIKE-B
 
- variable name: I_lf_113_POGO-A variable start: 1132 variable end: 1166
+ variable name: I_lf_113_POGO-A
 
- variable name: I_lf_113_POGO-B
+ variable name: I_lf_113_POGO-B variable start: 1132 variable end: 1166
 
  variable name: I_lf_113_POGO-C
 
@@ -563,7 +564,7 @@ Solution Objective value: (277,)
 
  variable name: I_lf_115_POGO-C
 
- variable name: I_lf_116_LION-A
+ variable name: I_lf_116_LION-A variable start: 1169 variable end: 1203
 
  variable name: I_lf_116_LION-B
 
@@ -611,7 +612,7 @@ Solution Objective value: (277,)
 
  variable name: I_lf_126_LION-A
 
- variable name: I_lf_126_LION-B
+ variable name: I_lf_126_LION-B variable start: 1247 variable end: 1282
 
  variable name: I_lf_127_POGO-A variable start: 1270 variable end: 1305
 
@@ -633,9 +634,9 @@ Solution Objective value: (277,)
 
  variable name: I_lf_130_INDI-B
 
- variable name: I_lf_131_BOSS-A
+ variable name: I_lf_131_BOSS-A variable start: 1293 variable end: 1330
 
- variable name: I_lf_131_BOSS-B variable start: 1293 variable end: 1330
+ variable name: I_lf_131_BOSS-B
 
  variable name: I_lf_132_REEF-A variable start: 1300 variable end: 1332
 
@@ -675,9 +676,9 @@ Solution Objective value: (277,)
 
  variable name: I_lf_139_POGO-C
 
- variable name: I_lf_140_INDI-A
+ variable name: I_lf_140_INDI-A variable start: 1397 variable end: 1431
 
- variable name: I_lf_140_INDI-B variable start: 1397 variable end: 1431
+ variable name: I_lf_140_INDI-B
 
  variable name: I_lf_141_LION-A
 
@@ -707,9 +708,9 @@ Solution Objective value: (277,)
 
  variable name: I_up_1_BOSS-B
 
- variable name: I_up_1_LION-A variable start: -15 variable end: 10
+ variable name: I_up_1_LION-A
 
- variable name: I_up_1_LION-B
+ variable name: I_up_1_LION-B variable start: -15 variable end: 10
 
  variable name: I_up_1_GUAM-A
 
@@ -721,7 +722,7 @@ Solution Objective value: (277,)
 
  variable name: I_up_2_POGO-A
 
- variable name: I_up_2_POGO-B
+ variable name: I_up_2_POGO-B variable start: -15 variable end: 15
 
  variable name: I_up_2_POGO-C
 
@@ -733,7 +734,7 @@ Solution Objective value: (277,)
 
  variable name: I_up_2_LION-B
 
- variable name: I_up_2_PIKE-A variable start: -15 variable end: 15
+ variable name: I_up_2_PIKE-A
 
  variable name: I_up_3_INDI-A
 
@@ -741,9 +742,9 @@ Solution Objective value: (277,)
 
  variable name: I_up_3_BOSS-B
 
- variable name: I_up_3_LION-A
+ variable name: I_up_3_LION-A variable start: -10 variable end: 10
 
- variable name: I_up_3_LION-B variable start: -10 variable end: 10
+ variable name: I_up_3_LION-B
 
  variable name: I_up_4_HULA-A
 
@@ -777,11 +778,11 @@ Solution Objective value: (277,)
 
  variable name: I_up_7_COOK-B
 
- variable name: I_up_7_GUAM-A
+ variable name: I_up_7_GUAM-A variable start: 15 variable end: 50
 
  variable name: I_up_7_GUAM-B
 
- variable name: I_up_7_PIKE-A variable start: 15 variable end: 50
+ variable name: I_up_7_PIKE-A
 
  variable name: I_up_8_BOSS-A
 
@@ -797,7 +798,7 @@ Solution Objective value: (277,)
 
  variable name: I_up_9_POGO-B
 
- variable name: I_up_9_POGO-C variable start: 30 variable end: 80
+ variable name: I_up_9_POGO-C
 
  variable name: I_up_9_HULA-A
 
@@ -813,7 +814,7 @@ Solution Objective value: (277,)
 
  variable name: I_up_9_LION-A
 
- variable name: I_up_9_LION-B
+ variable name: I_up_9_LION-B variable start: 30 variable end: 80
 
  variable name: I_up_9_GUAM-A
 
@@ -853,13 +854,13 @@ Solution Objective value: (277,)
 
  variable name: I_up_11_LION-A
 
- variable name: I_up_11_LION-B variable start: 45 variable end: 75
+ variable name: I_up_11_LION-B
 
  variable name: I_up_11_GUAM-A
 
  variable name: I_up_11_GUAM-B
 
- variable name: I_up_11_PIKE-A
+ variable name: I_up_11_PIKE-A variable start: 45 variable end: 75
 
  variable name: I_up_11_REEF-A
 
@@ -879,17 +880,17 @@ Solution Objective value: (277,)
 
  variable name: I_up_13_BOSS-A
 
- variable name: I_up_13_BOSS-B
+ variable name: I_up_13_BOSS-B variable start: 55 variable end: 75
 
  variable name: I_up_13_LION-A
 
  variable name: I_up_13_LION-B
 
- variable name: I_up_13_PIKE-A variable start: 55 variable end: 75
+ variable name: I_up_13_PIKE-A
 
- variable name: I_up_14_POGO-A variable start: 55 variable end: 75
+ variable name: I_up_14_POGO-A
 
- variable name: I_up_14_POGO-B
+ variable name: I_up_14_POGO-B variable start: 55 variable end: 75
 
  variable name: I_up_14_POGO-C
 
@@ -919,11 +920,11 @@ Solution Objective value: (277,)
 
  variable name: I_up_15_LION-B
 
- variable name: I_up_16_INDI-A
+ variable name: I_up_16_INDI-A variable start: 75 variable end: 95
 
  variable name: I_up_16_LION-A
 
- variable name: I_up_16_LION-B variable start: 75 variable end: 95
+ variable name: I_up_16_LION-B
 
  variable name: I_up_16_REEF-A
 
@@ -1005,9 +1006,9 @@ Solution Objective value: (277,)
 
  variable name: I_up_20_INDI-A
 
- variable name: I_up_20_BOSS-A variable start: 120 variable end: 150
+ variable name: I_up_20_BOSS-A
 
- variable name: I_up_20_BOSS-B
+ variable name: I_up_20_BOSS-B variable start: 128 variable end: 158
 
  variable name: I_up_20_LION-A
 
@@ -1015,11 +1016,11 @@ Solution Objective value: (277,)
 
  variable name: I_up_21_INDI-A
 
- variable name: I_up_21_BOSS-A
+ variable name: I_up_21_BOSS-A variable start: 120 variable end: 140
 
  variable name: I_up_21_BOSS-B
 
- variable name: I_up_21_LION-A variable start: 120 variable end: 140
+ variable name: I_up_21_LION-A
 
  variable name: I_up_21_LION-B
 
@@ -1027,7 +1028,7 @@ Solution Objective value: (277,)
 
  variable name: I_up_22_POGO-B
 
- variable name: I_up_22_POGO-C variable start: 120 variable end: 155
+ variable name: I_up_22_POGO-C
 
  variable name: I_up_22_HULA-A
 
@@ -1043,7 +1044,7 @@ Solution Objective value: (277,)
 
  variable name: I_up_22_BOSS-B
 
- variable name: I_up_22_LION-A
+ variable name: I_up_22_LION-A variable start: 120 variable end: 155
 
  variable name: I_up_22_LION-B
 
@@ -1075,7 +1076,7 @@ Solution Objective value: (277,)
 
  variable name: I_up_23_BOSS-B
 
- variable name: I_up_23_LION-A variable start: 165 variable end: 195
+ variable name: I_up_23_LION-A
 
  variable name: I_up_23_LION-B
 
@@ -1083,7 +1084,7 @@ Solution Objective value: (277,)
 
  variable name: I_up_23_GUAM-B
 
- variable name: I_up_23_PIKE-A
+ variable name: I_up_23_PIKE-A variable start: 165 variable end: 195
 
  variable name: I_up_23_REEF-A
 
@@ -1127,9 +1128,9 @@ Solution Objective value: (277,)
 
  variable name: I_up_26_INDI-A
 
- variable name: I_up_26_LION-A variable start: 200 variable end: 235
+ variable name: I_up_26_LION-A
 
- variable name: I_up_26_LION-B
+ variable name: I_up_26_LION-B variable start: 200 variable end: 235
 
  variable name: I_up_26_REEF-A
 
@@ -1137,7 +1138,7 @@ Solution Objective value: (277,)
 
  variable name: I_up_27_POGO-B
 
- variable name: I_up_27_POGO-C variable start: 205 variable end: 275
+ variable name: I_up_27_POGO-C
 
  variable name: I_up_27_HULA-A
 
@@ -1161,7 +1162,7 @@ Solution Objective value: (277,)
 
  variable name: I_up_27_GUAM-B
 
- variable name: I_up_27_PIKE-A
+ variable name: I_up_27_PIKE-A variable start: 205 variable end: 275
 
  variable name: I_up_27_REEF-A
 
@@ -1173,11 +1174,11 @@ Solution Objective value: (277,)
 
  variable name: I_up_28_COOK-B
 
- variable name: I_up_28_GUAM-A
+ variable name: I_up_28_GUAM-A variable start: 225 variable end: 260
 
  variable name: I_up_28_GUAM-B
 
- variable name: I_up_28_PIKE-A variable start: 225 variable end: 260
+ variable name: I_up_28_PIKE-A
 
  variable name: I_up_29_HULA-A
 
@@ -1201,15 +1202,15 @@ Solution Objective value: (277,)
 
  variable name: I_up_30_BOSS-B
 
- variable name: I_up_30_LION-A variable start: 240 variable end: 265
+ variable name: I_up_30_LION-A
 
- variable name: I_up_30_LION-B
+ variable name: I_up_30_LION-B variable start: 240 variable end: 265
 
  variable name: I_up_30_PIKE-A
 
- variable name: I_up_31_COOK-A variable start: 245 variable end: 730
+ variable name: I_up_31_COOK-A
 
- variable name: I_up_31_COOK-B
+ variable name: I_up_31_COOK-B variable start: 245 variable end: 730
 
  variable name: I_up_31_INDI-A
 
@@ -1239,7 +1240,7 @@ Solution Objective value: (277,)
 
  variable name: I_up_33_BOSS-A
 
- variable name: I_up_33_BOSS-B variable start: 255 variable end: 290
+ variable name: I_up_33_BOSS-B variable start: 295 variable end: 330
 
  variable name: I_up_33_LION-A
 
@@ -1251,7 +1252,7 @@ Solution Objective value: (277,)
 
  variable name: I_up_34_POGO-B
 
- variable name: I_up_34_POGO-C
+ variable name: I_up_34_POGO-C variable start: 260 variable end: 285
 
  variable name: I_up_34_HULA-A
 
@@ -1275,7 +1276,7 @@ Solution Objective value: (277,)
 
  variable name: I_up_34_GUAM-B
 
- variable name: I_up_34_PIKE-A variable start: 260 variable end: 285
+ variable name: I_up_34_PIKE-A
 
  variable name: I_up_34_REEF-A
 
@@ -1299,9 +1300,9 @@ Solution Objective value: (277,)
 
  variable name: I_up_35_BOSS-B
 
- variable name: I_up_35_LION-A
+ variable name: I_up_35_LION-A variable start: 265 variable end: 295
 
- variable name: I_up_35_LION-B variable start: 265 variable end: 295
+ variable name: I_up_35_LION-B
 
  variable name: I_up_35_GUAM-A
 
@@ -1309,7 +1310,7 @@ Solution Objective value: (277,)
 
  variable name: I_up_35_PIKE-A
 
- variable name: I_up_36_HULA-A variable start: 265 variable end: 295
+ variable name: I_up_36_HULA-A
 
  variable name: I_up_36_HULA-B
 
@@ -1319,17 +1320,17 @@ Solution Objective value: (277,)
 
  variable name: I_up_36_BOSS-A
 
- variable name: I_up_36_BOSS-B
+ variable name: I_up_36_BOSS-B variable start: 265 variable end: 295
 
  variable name: I_up_36_PIKE-A
 
  variable name: I_up_37_INDI-A
 
- variable name: I_up_37_LION-A variable start: 270 variable end: 290
+ variable name: I_up_37_LION-A
 
  variable name: I_up_37_LION-B
 
- variable name: I_up_37_GUAM-A
+ variable name: I_up_37_GUAM-A variable start: 270 variable end: 290
 
  variable name: I_up_37_GUAM-B
 
@@ -1345,19 +1346,19 @@ Solution Objective value: (277,)
 
  variable name: I_up_38_LION-B
 
- variable name: I_up_39_INDI-A
+ variable name: I_up_39_INDI-A variable start: 315 variable end: 335
 
  variable name: I_up_39_LION-A
 
- variable name: I_up_39_LION-B variable start: 315 variable end: 335
+ variable name: I_up_39_LION-B
 
  variable name: I_up_39_REEF-A
 
  variable name: I_up_40_POGO-A
 
- variable name: I_up_40_POGO-B variable start: 315 variable end: 345
+ variable name: I_up_40_POGO-B
 
- variable name: I_up_40_POGO-C
+ variable name: I_up_40_POGO-C variable start: 315 variable end: 345
 
  variable name: I_up_40_HULA-A
 
@@ -1389,9 +1390,9 @@ Solution Objective value: (277,)
 
  variable name: I_up_41_GUAM-A
 
- variable name: I_up_41_GUAM-B
+ variable name: I_up_41_GUAM-B variable start: 315 variable end: 350
 
- variable name: I_up_41_REEF-A variable start: 315 variable end: 350
+ variable name: I_up_41_REEF-A
 
  variable name: I_up_42_POGO-A
 
@@ -1411,7 +1412,7 @@ Solution Objective value: (277,)
 
  variable name: I_up_42_BOSS-A
 
- variable name: I_up_42_BOSS-B variable start: 315 variable end: 375
+ variable name: I_up_42_BOSS-B
 
  variable name: I_up_42_LION-A
 
@@ -1423,13 +1424,13 @@ Solution Objective value: (277,)
 
  variable name: I_up_42_PIKE-A
 
- variable name: I_up_42_REEF-A
+ variable name: I_up_42_REEF-A variable start: 315 variable end: 375
 
  variable name: I_up_43_POGO-A
 
  variable name: I_up_43_POGO-B
 
- variable name: I_up_43_POGO-C variable start: 320 variable end: 345
+ variable name: I_up_43_POGO-C
 
  variable name: I_up_43_HULA-A
 
@@ -1447,7 +1448,7 @@ Solution Objective value: (277,)
 
  variable name: I_up_43_LION-A
 
- variable name: I_up_43_LION-B
+ variable name: I_up_43_LION-B variable start: 320 variable end: 345
 
  variable name: I_up_43_GUAM-A
 
@@ -1469,11 +1470,11 @@ Solution Objective value: (277,)
 
  variable name: I_up_45_HULA-B
 
- variable name: I_up_45_COOK-A
+ variable name: I_up_45_COOK-A variable start: 340 variable end: 370
 
  variable name: I_up_45_COOK-B
 
- variable name: I_up_45_GUAM-A variable start: 340 variable end: 370
+ variable name: I_up_45_GUAM-A
 
  variable name: I_up_45_GUAM-B
 
@@ -1485,17 +1486,17 @@ Solution Objective value: (277,)
 
  variable name: I_up_46_COOK-B
 
- variable name: I_up_46_BOSS-A variable start: 356 variable end: 400
+ variable name: I_up_46_BOSS-A
 
  variable name: I_up_46_BOSS-B
 
- variable name: I_up_46_PIKE-A
+ variable name: I_up_46_PIKE-A variable start: 356 variable end: 400
 
- variable name: I_up_47_BOSS-A
+ variable name: I_up_47_BOSS-A variable start: 360 variable end: 390
 
  variable name: I_up_47_BOSS-B
 
- variable name: I_up_47_LION-A variable start: 360 variable end: 390
+ variable name: I_up_47_LION-A
 
  variable name: I_up_47_LION-B
 
@@ -1521,9 +1522,9 @@ Solution Objective value: (277,)
 
  variable name: I_up_48_BOSS-B
 
- variable name: I_up_48_LION-A
+ variable name: I_up_48_LION-A variable start: 360 variable end: 395
 
- variable name: I_up_48_LION-B variable start: 360 variable end: 395
+ variable name: I_up_48_LION-B
 
  variable name: I_up_48_GUAM-A
 
@@ -1555,17 +1556,17 @@ Solution Objective value: (277,)
 
  variable name: I_up_49_LION-A
 
- variable name: I_up_49_LION-B
+ variable name: I_up_49_LION-B variable start: 365 variable end: 395
 
  variable name: I_up_49_GUAM-A
 
  variable name: I_up_49_GUAM-B
 
- variable name: I_up_49_PIKE-A variable start: 365 variable end: 395
+ variable name: I_up_49_PIKE-A
 
  variable name: I_up_49_REEF-A
 
- variable name: I_up_50_POGO-A variable start: 375 variable end: 400
+ variable name: I_up_50_POGO-A
 
  variable name: I_up_50_POGO-B
 
@@ -1595,13 +1596,13 @@ Solution Objective value: (277,)
 
  variable name: I_up_50_PIKE-A
 
- variable name: I_up_50_REEF-A
+ variable name: I_up_50_REEF-A variable start: 375 variable end: 400
 
  variable name: I_up_51_POGO-A
 
  variable name: I_up_51_POGO-B
 
- variable name: I_up_51_POGO-C
+ variable name: I_up_51_POGO-C variable start: 390 variable end: 450
 
  variable name: I_up_51_HULA-A
 
@@ -1627,15 +1628,15 @@ Solution Objective value: (277,)
 
  variable name: I_up_51_PIKE-A
 
- variable name: I_up_51_REEF-A variable start: 390 variable end: 450
+ variable name: I_up_51_REEF-A
 
  variable name: I_up_52_INDI-A
 
  variable name: I_up_52_BOSS-A
 
- variable name: I_up_52_BOSS-B
+ variable name: I_up_52_BOSS-B variable start: 405 variable end: 430
 
- variable name: I_up_52_LION-A variable start: 405 variable end: 430
+ variable name: I_up_52_LION-A
 
  variable name: I_up_52_LION-B
 
@@ -1673,7 +1674,7 @@ Solution Objective value: (277,)
 
  variable name: I_up_54_INDI-A
 
- variable name: I_up_54_LION-A
+ variable name: I_up_54_LION-A variable start: 425 variable end: 460
 
  variable name: I_up_54_LION-B
 
@@ -1683,11 +1684,11 @@ Solution Objective value: (277,)
 
  variable name: I_up_55_LION-A
 
- variable name: I_up_55_LION-B variable start: 435 variable end: 470
+ variable name: I_up_55_LION-B
 
  variable name: I_up_55_GUAM-A
 
- variable name: I_up_55_GUAM-B
+ variable name: I_up_55_GUAM-B variable start: 435 variable end: 470
 
  variable name: I_up_55_REEF-A
 
@@ -1703,15 +1704,15 @@ Solution Objective value: (277,)
 
  variable name: I_up_56_LION-A
 
- variable name: I_up_56_LION-B
+ variable name: I_up_56_LION-B variable start: 450 variable end: 470
 
- variable name: I_up_56_PIKE-A variable start: 450 variable end: 470
+ variable name: I_up_56_PIKE-A
 
  variable name: I_up_57_POGO-A
 
- variable name: I_up_57_POGO-B variable start: 465 variable end: 495
+ variable name: I_up_57_POGO-B
 
- variable name: I_up_57_POGO-C
+ variable name: I_up_57_POGO-C variable start: 465 variable end: 495
 
  variable name: I_up_57_COOK-A
 
@@ -1731,7 +1732,7 @@ Solution Objective value: (277,)
 
  variable name: I_up_58_POGO-B
 
- variable name: I_up_58_POGO-C variable start: 465 variable end: 495
+ variable name: I_up_58_POGO-C
 
  variable name: I_up_58_HULA-A
 
@@ -1755,7 +1756,7 @@ Solution Objective value: (277,)
 
  variable name: I_up_58_GUAM-B
 
- variable name: I_up_58_PIKE-A
+ variable name: I_up_58_PIKE-A variable start: 465 variable end: 495
 
  variable name: I_up_58_REEF-A
 
@@ -1779,9 +1780,9 @@ Solution Objective value: (277,)
 
  variable name: I_up_59_BOSS-B
 
- variable name: I_up_59_LION-A
+ variable name: I_up_59_LION-A variable start: 470 variable end: 500
 
- variable name: I_up_59_LION-B variable start: 470 variable end: 500
+ variable name: I_up_59_LION-B
 
  variable name: I_up_59_GUAM-A
 
@@ -1811,9 +1812,9 @@ Solution Objective value: (277,)
 
  variable name: I_up_60_BOSS-B
 
- variable name: I_up_60_LION-A variable start: 470 variable end: 495
+ variable name: I_up_60_LION-A
 
- variable name: I_up_60_LION-B
+ variable name: I_up_60_LION-B variable start: 470 variable end: 495
 
  variable name: I_up_60_GUAM-A
 
@@ -1823,9 +1824,9 @@ Solution Objective value: (277,)
 
  variable name: I_up_61_INDI-A
 
- variable name: I_up_61_BOSS-A variable start: 490 variable end: 510
+ variable name: I_up_61_BOSS-A
 
- variable name: I_up_61_BOSS-B
+ variable name: I_up_61_BOSS-B variable start: 490 variable end: 510
 
  variable name: I_up_61_LION-A
 
@@ -1839,17 +1840,17 @@ Solution Objective value: (277,)
 
  variable name: I_up_62_COOK-B
 
- variable name: I_up_62_GUAM-A
+ variable name: I_up_62_GUAM-A variable start: 495 variable end: 530
 
  variable name: I_up_62_GUAM-B
 
- variable name: I_up_62_PIKE-A variable start: 495 variable end: 530
+ variable name: I_up_62_PIKE-A
 
  variable name: I_up_63_INDI-A
 
- variable name: I_up_63_LION-A variable start: 500 variable end: 535
+ variable name: I_up_63_LION-A
 
- variable name: I_up_63_LION-B
+ variable name: I_up_63_LION-B variable start: 500 variable end: 535
 
  variable name: I_up_63_REEF-A
 
@@ -1873,9 +1874,9 @@ Solution Objective value: (277,)
 
  variable name: I_up_64_BOSS-B
 
- variable name: I_up_64_LION-A
+ variable name: I_up_64_LION-A variable start: 505 variable end: 535
 
- variable name: I_up_64_LION-B variable start: 505 variable end: 535
+ variable name: I_up_64_LION-B
 
  variable name: I_up_64_GUAM-A
 
@@ -1901,9 +1902,9 @@ Solution Objective value: (277,)
 
  variable name: I_up_65_INDI-A
 
- variable name: I_up_65_BOSS-A variable start: 520 variable end: 560
+ variable name: I_up_65_BOSS-A
 
- variable name: I_up_65_BOSS-B
+ variable name: I_up_65_BOSS-B variable start: 520 variable end: 560
 
  variable name: I_up_65_LION-A
 
@@ -1919,7 +1920,7 @@ Solution Objective value: (277,)
 
  variable name: I_up_66_POGO-B
 
- variable name: I_up_66_POGO-C variable start: 525 variable end: 555
+ variable name: I_up_66_POGO-C
 
  variable name: I_up_66_HULA-A
 
@@ -1945,15 +1946,15 @@ Solution Objective value: (277,)
 
  variable name: I_up_66_PIKE-A
 
- variable name: I_up_66_REEF-A
+ variable name: I_up_66_REEF-A variable start: 525 variable end: 555
 
- variable name: I_up_67_INDI-A
+ variable name: I_up_67_INDI-A variable start: 545 variable end: 570
 
  variable name: I_up_67_BOSS-A
 
  variable name: I_up_67_BOSS-B
 
- variable name: I_up_67_LION-A variable start: 545 variable end: 570
+ variable name: I_up_67_LION-A
 
  variable name: I_up_67_LION-B
 
@@ -2009,9 +2010,9 @@ Solution Objective value: (277,)
 
  variable name: I_up_69_BOSS-B
 
- variable name: I_up_69_LION-A
+ variable name: I_up_69_LION-A variable start: 545 variable end: 570
 
- variable name: I_up_69_LION-B variable start: 545 variable end: 570
+ variable name: I_up_69_LION-B
 
  variable name: I_up_69_GUAM-A
 
@@ -2021,11 +2022,11 @@ Solution Objective value: (277,)
 
  variable name: I_up_69_REEF-A
 
- variable name: I_up_70_INDI-A variable start: 555 variable end: 580
+ variable name: I_up_70_INDI-A
 
  variable name: I_up_70_BOSS-A
 
- variable name: I_up_70_BOSS-B
+ variable name: I_up_70_BOSS-B variable start: 560 variable end: 585
 
  variable name: I_up_70_LION-A
 
@@ -2033,7 +2034,7 @@ Solution Objective value: (277,)
 
  variable name: I_up_71_POGO-A
 
- variable name: I_up_71_POGO-B
+ variable name: I_up_71_POGO-B variable start: 555 variable end: 580
 
  variable name: I_up_71_POGO-C
 
@@ -2051,7 +2052,7 @@ Solution Objective value: (277,)
 
  variable name: I_up_71_LION-B
 
- variable name: I_up_71_PIKE-A variable start: 555 variable end: 580
+ variable name: I_up_71_PIKE-A
 
  variable name: I_up_72_HULA-A
 
@@ -2097,7 +2098,7 @@ Solution Objective value: (277,)
 
  variable name: I_up_75_BOSS-B
 
- variable name: I_up_75_LION-A
+ variable name: I_up_75_LION-A variable start: 570 variable end: 605
 
  variable name: I_up_75_LION-B
 
@@ -2121,7 +2122,7 @@ Solution Objective value: (277,)
 
  variable name: I_up_77_LION-A
 
- variable name: I_up_77_LION-B
+ variable name: I_up_77_LION-B variable start: 555 variable end: 590
 
  variable name: I_up_77_GUAM-A
 
@@ -2129,7 +2130,7 @@ Solution Objective value: (277,)
 
  variable name: I_up_77_REEF-A
 
- variable name: I_up_78_POGO-A variable start: 565 variable end: 595
+ variable name: I_up_78_POGO-A
 
  variable name: I_up_78_POGO-B
 
@@ -2157,7 +2158,7 @@ Solution Objective value: (277,)
 
  variable name: I_up_78_GUAM-B
 
- variable name: I_up_78_PIKE-A
+ variable name: I_up_78_PIKE-A variable start: 565 variable end: 595
 
  variable name: I_up_78_REEF-A
 
@@ -2201,7 +2202,7 @@ Solution Objective value: (277,)
 
  variable name: I_up_80_LION-A
 
- variable name: I_up_80_LION-B
+ variable name: I_up_80_LION-B variable start: 605 variable end: 650
 
  variable name: I_up_80_PIKE-A
 
@@ -2209,9 +2210,9 @@ Solution Objective value: (277,)
 
  variable name: I_up_81_BOSS-B
 
- variable name: I_up_81_LION-A
+ variable name: I_up_81_LION-A variable start: 630 variable end: 655
 
- variable name: I_up_81_LION-B variable start: 615 variable end: 640
+ variable name: I_up_81_LION-B
 
  variable name: I_up_81_PIKE-A
 
@@ -2223,13 +2224,13 @@ Solution Objective value: (277,)
 
  variable name: I_up_82_COOK-B
 
- variable name: I_up_82_BOSS-A
+ variable name: I_up_82_BOSS-A variable start: 615 variable end: 635
 
  variable name: I_up_82_BOSS-B
 
- variable name: I_up_82_PIKE-A variable start: 615 variable end: 635
+ variable name: I_up_82_PIKE-A
 
- variable name: I_up_83_POGO-A variable start: 615 variable end: 645
+ variable name: I_up_83_POGO-A
 
  variable name: I_up_83_POGO-B
 
@@ -2259,9 +2260,9 @@ Solution Objective value: (277,)
 
  variable name: I_up_83_PIKE-A
 
- variable name: I_up_83_REEF-A
+ variable name: I_up_83_REEF-A variable start: 615 variable end: 645
 
- variable name: I_up_84_COOK-A
+ variable name: I_up_84_COOK-A variable start: 630 variable end: 650
 
  variable name: I_up_84_COOK-B
 
@@ -2269,7 +2270,7 @@ Solution Objective value: (277,)
 
  variable name: I_up_84_BOSS-B
 
- variable name: I_up_84_LION-A variable start: 630 variable end: 650
+ variable name: I_up_84_LION-A
 
  variable name: I_up_84_LION-B
 
@@ -2277,7 +2278,7 @@ Solution Objective value: (277,)
 
  variable name: I_up_85_POGO-A
 
- variable name: I_up_85_POGO-B
+ variable name: I_up_85_POGO-B variable start: 650 variable end: 700
 
  variable name: I_up_85_POGO-C
 
@@ -2303,7 +2304,7 @@ Solution Objective value: (277,)
 
  variable name: I_up_85_GUAM-B
 
- variable name: I_up_85_PIKE-A variable start: 650 variable end: 700
+ variable name: I_up_85_PIKE-A
 
  variable name: I_up_86_POGO-A
 
@@ -2381,13 +2382,13 @@ Solution Objective value: (277,)
 
  variable name: I_up_88_REEF-A
 
- variable name: I_up_89_INDI-A
+ variable name: I_up_89_INDI-A variable start: 675 variable end: 695
 
  variable name: I_up_89_LION-A
 
  variable name: I_up_89_LION-B
 
- variable name: I_up_89_REEF-A variable start: 675 variable end: 695
+ variable name: I_up_89_REEF-A
 
  variable name: I_up_90_POGO-A
 
@@ -2499,13 +2500,13 @@ Solution Objective value: (277,)
 
  variable name: I_up_93_REEF-A
 
- variable name: I_up_94_BOSS-A
+ variable name: I_up_94_BOSS-A variable start: 735 variable end: 770
 
  variable name: I_up_94_BOSS-B
 
  variable name: I_up_94_LION-A
 
- variable name: I_up_94_LION-B variable start: 735 variable end: 770
+ variable name: I_up_94_LION-B
 
  variable name: I_up_94_PIKE-A
 
@@ -2537,13 +2538,13 @@ Solution Objective value: (277,)
 
  variable name: I_up_96_COOK-B
 
- variable name: I_up_96_BOSS-A variable start: 760 variable end: 810
+ variable name: I_up_96_BOSS-A
 
  variable name: I_up_96_BOSS-B
 
  variable name: I_up_96_LION-A
 
- variable name: I_up_96_LION-B
+ variable name: I_up_96_LION-B variable start: 760 variable end: 810
 
  variable name: I_up_96_GUAM-A
 
@@ -2567,13 +2568,13 @@ Solution Objective value: (277,)
 
  variable name: I_up_98_POGO-C
 
- variable name: I_up_98_BOSS-A
+ variable name: I_up_98_BOSS-A variable start: 810 variable end: 855
 
  variable name: I_up_98_BOSS-B
 
  variable name: I_up_98_LION-A
 
- variable name: I_up_98_LION-B variable start: 810 variable end: 855
+ variable name: I_up_98_LION-B
 
  variable name: I_up_98_PIKE-A
 
@@ -2581,7 +2582,7 @@ Solution Objective value: (277,)
 
  variable name: I_up_99_POGO-B
 
- variable name: I_up_99_POGO-C variable start: 810 variable end: 870
+ variable name: I_up_99_POGO-C
 
  variable name: I_up_99_HULA-A
 
@@ -2605,7 +2606,7 @@ Solution Objective value: (277,)
 
  variable name: I_up_99_GUAM-B
 
- variable name: I_up_99_PIKE-A
+ variable name: I_up_99_PIKE-A variable start: 810 variable end: 870
 
  variable name: I_up_99_REEF-A
 
@@ -2621,7 +2622,7 @@ Solution Objective value: (277,)
 
  variable name: I_up_100_REEF-A
 
- variable name: I_up_101_POGO-A
+ variable name: I_up_101_POGO-A variable start: 830 variable end: 860
 
  variable name: I_up_101_POGO-B
 
@@ -2649,15 +2650,15 @@ Solution Objective value: (277,)
 
  variable name: I_up_101_GUAM-B
 
- variable name: I_up_101_PIKE-A variable start: 830 variable end: 860
+ variable name: I_up_101_PIKE-A
 
  variable name: I_up_101_REEF-A
 
- variable name: I_up_102_POGO-A variable start: 835 variable end: 870
+ variable name: I_up_102_POGO-A
 
  variable name: I_up_102_POGO-B
 
- variable name: I_up_102_POGO-C
+ variable name: I_up_102_POGO-C variable start: 835 variable end: 870
 
  variable name: I_up_102_HULA-A
 
@@ -2693,11 +2694,11 @@ Solution Objective value: (277,)
 
  variable name: I_up_103_REEF-A variable start: 855 variable end: 890
 
- variable name: I_up_104_BOSS-A
+ variable name: I_up_104_BOSS-A variable start: 855 variable end: 880
 
  variable name: I_up_104_BOSS-B
 
- variable name: I_up_104_LION-A variable start: 855 variable end: 880
+ variable name: I_up_104_LION-A
 
  variable name: I_up_104_LION-B
 
@@ -2723,7 +2724,7 @@ Solution Objective value: (277,)
 
  variable name: I_up_105_BOSS-B
 
- variable name: I_up_105_LION-A
+ variable name: I_up_105_LION-A variable start: 870 variable end: 930
 
  variable name: I_up_105_LION-B
 
@@ -2731,7 +2732,7 @@ Solution Objective value: (277,)
 
  variable name: I_up_105_GUAM-B
 
- variable name: I_up_105_PIKE-A variable start: 870 variable end: 930
+ variable name: I_up_105_PIKE-A
 
  variable name: I_up_105_REEF-A
 
@@ -2743,15 +2744,15 @@ Solution Objective value: (277,)
 
  variable name: I_up_106_COOK-B
 
- variable name: I_up_106_GUAM-A variable start: 875 variable end: 900
+ variable name: I_up_106_GUAM-A
 
- variable name: I_up_106_GUAM-B
+ variable name: I_up_106_GUAM-B variable start: 875 variable end: 900
 
  variable name: I_up_107_POGO-A
 
  variable name: I_up_107_POGO-B
 
- variable name: I_up_107_POGO-C variable start: 880 variable end: 940
+ variable name: I_up_107_POGO-C
 
  variable name: I_up_107_HULA-A
 
@@ -2775,17 +2776,17 @@ Solution Objective value: (277,)
 
  variable name: I_up_107_GUAM-B
 
- variable name: I_up_107_PIKE-A
+ variable name: I_up_107_PIKE-A variable start: 880 variable end: 940
 
  variable name: I_up_107_REEF-A
 
  variable name: I_up_108_INDI-A
 
- variable name: I_up_108_BOSS-A
+ variable name: I_up_108_BOSS-A variable start: 885 variable end: 905
 
  variable name: I_up_108_BOSS-B
 
- variable name: I_up_108_LION-A variable start: 885 variable end: 905
+ variable name: I_up_108_LION-A
 
  variable name: I_up_108_LION-B
 
@@ -2847,7 +2848,7 @@ Solution Objective value: (277,)
 
  variable name: I_up_111_BOSS-B
 
- variable name: I_up_111_LION-A
+ variable name: I_up_111_LION-A variable start: 935 variable end: 965
 
  variable name: I_up_111_LION-B
 
@@ -2855,7 +2856,7 @@ Solution Objective value: (277,)
 
  variable name: I_up_111_GUAM-B
 
- variable name: I_up_111_PIKE-A variable start: 935 variable end: 965
+ variable name: I_up_111_PIKE-A
 
  variable name: I_up_111_REEF-A
 
@@ -2877,7 +2878,7 @@ Solution Objective value: (277,)
 
  variable name: I_up_112_BOSS-A
 
- variable name: I_up_112_BOSS-B
+ variable name: I_up_112_BOSS-B variable start: 935 variable end: 980
 
  variable name: I_up_112_LION-A
 
@@ -2889,7 +2890,7 @@ Solution Objective value: (277,)
 
  variable name: I_up_112_PIKE-A
 
- variable name: I_up_112_REEF-A variable start: 935 variable end: 980
+ variable name: I_up_112_REEF-A
 
  variable name: I_up_113_LION-A
 
@@ -2907,17 +2908,17 @@ Solution Objective value: (277,)
 
  variable name: I_up_114_BOSS-A
 
- variable name: I_up_114_BOSS-B variable start: 955 variable end: 985
+ variable name: I_up_114_BOSS-B
 
- variable name: I_up_114_PIKE-A
+ variable name: I_up_114_PIKE-A variable start: 955 variable end: 985
 
  variable name: I_up_115_INDI-A
 
  variable name: I_up_115_LION-A
 
- variable name: I_up_115_LION-B variable start: 975 variable end: 1010
+ variable name: I_up_115_LION-B
 
- variable name: I_up_115_GUAM-A
+ variable name: I_up_115_GUAM-A variable start: 975 variable end: 1010
 
  variable name: I_up_115_GUAM-B
 
@@ -2933,9 +2934,9 @@ Solution Objective value: (277,)
 
  variable name: I_up_116_GUAM-A
 
- variable name: I_up_116_GUAM-B
+ variable name: I_up_116_GUAM-B variable start: 975 variable end: 1010
 
- variable name: I_up_116_PIKE-A variable start: 975 variable end: 1010
+ variable name: I_up_116_PIKE-A
 
  variable name: I_up_117_COOK-A
 
@@ -2987,7 +2988,7 @@ Solution Objective value: (277,)
 
  variable name: I_up_118_REEF-A
 
- variable name: I_up_119_POGO-A variable start: 990 variable end: 1020
+ variable name: I_up_119_POGO-A
 
  variable name: I_up_119_POGO-B
 
@@ -3009,7 +3010,7 @@ Solution Objective value: (277,)
 
  variable name: I_up_119_LION-A
 
- variable name: I_up_119_LION-B
+ variable name: I_up_119_LION-B variable start: 990 variable end: 1020
 
  variable name: I_up_119_GUAM-A
 
@@ -3023,7 +3024,7 @@ Solution Objective value: (277,)
 
  variable name: I_up_120_COOK-B
 
- variable name: I_up_120_BOSS-A variable start: 995 variable end: 1025
+ variable name: I_up_120_BOSS-A
 
  variable name: I_up_120_BOSS-B
 
@@ -3031,13 +3032,13 @@ Solution Objective value: (277,)
 
  variable name: I_up_120_LION-B
 
- variable name: I_up_120_PIKE-A
+ variable name: I_up_120_PIKE-A variable start: 995 variable end: 1025
 
  variable name: I_up_121_BOSS-A
 
- variable name: I_up_121_BOSS-B
+ variable name: I_up_121_BOSS-B variable start: 1005 variable end: 1040
 
- variable name: I_up_121_LION-A variable start: 1005 variable end: 1040
+ variable name: I_up_121_LION-A
 
  variable name: I_up_121_LION-B
 
@@ -3045,13 +3046,13 @@ Solution Objective value: (277,)
 
  variable name: I_up_122_INDI-A
 
- variable name: I_up_122_BOSS-A variable start: 1025 variable end: 1050
+ variable name: I_up_122_BOSS-A
 
  variable name: I_up_122_BOSS-B
 
  variable name: I_up_122_LION-A
 
- variable name: I_up_122_LION-B
+ variable name: I_up_122_LION-B variable start: 1025 variable end: 1050
 
  variable name: I_up_123_INDI-A variable start: 1035 variable end: 1060
 
@@ -3101,9 +3102,9 @@ Solution Objective value: (277,)
 
  variable name: I_up_126_INDI-A
 
- variable name: I_up_126_LION-A
+ variable name: I_up_126_LION-A variable start: 1065 variable end: 1100
 
- variable name: I_up_126_LION-B variable start: 1065 variable end: 1100
+ variable name: I_up_126_LION-B
 
  variable name: I_up_126_REEF-A
 
@@ -3141,9 +3142,9 @@ Solution Objective value: (277,)
 
  variable name: I_up_128_BOSS-B
 
- variable name: I_up_128_LION-A variable start: 1085 variable end: 1115
+ variable name: I_up_128_LION-A
 
- variable name: I_up_128_LION-B
+ variable name: I_up_128_LION-B variable start: 1085 variable end: 1115
 
  variable name: I_up_128_GUAM-A
 
@@ -3179,9 +3180,9 @@ Solution Objective value: (277,)
 
  variable name: I_up_130_PIKE-A variable start: 1095 variable end: 1115
 
- variable name: I_up_131_POGO-A variable start: 1095 variable end: 1120
+ variable name: I_up_131_POGO-A
 
- variable name: I_up_131_POGO-B
+ variable name: I_up_131_POGO-B variable start: 1095 variable end: 1120
 
  variable name: I_up_131_POGO-C
 
@@ -3229,7 +3230,7 @@ Solution Objective value: (277,)
 
  variable name: I_up_133_POGO-B
 
- variable name: I_up_133_POGO-C
+ variable name: I_up_133_POGO-C variable start: 1130 variable end: 1155
 
  variable name: I_up_133_HULA-A
 
@@ -3247,7 +3248,7 @@ Solution Objective value: (277,)
 
  variable name: I_up_133_LION-A
 
- variable name: I_up_133_LION-B variable start: 1130 variable end: 1155
+ variable name: I_up_133_LION-B
 
  variable name: I_up_133_GUAM-A
 
@@ -3259,7 +3260,7 @@ Solution Objective value: (277,)
 
  variable name: I_up_134_POGO-A
 
- variable name: I_up_134_POGO-B variable start: 1150 variable end: 1175
+ variable name: I_up_134_POGO-B
 
  variable name: I_up_134_POGO-C
 
@@ -3279,7 +3280,7 @@ Solution Objective value: (277,)
 
  variable name: I_up_134_LION-A
 
- variable name: I_up_134_LION-B
+ variable name: I_up_134_LION-B variable start: 1150 variable end: 1175
 
  variable name: I_up_134_GUAM-A
 
@@ -3325,9 +3326,9 @@ Solution Objective value: (277,)
 
  variable name: I_up_136_BOSS-A
 
- variable name: I_up_136_BOSS-B
+ variable name: I_up_136_BOSS-B variable start: 1165 variable end: 1185
 
- variable name: I_up_136_LION-A variable start: 1165 variable end: 1185
+ variable name: I_up_136_LION-A
 
  variable name: I_up_136_LION-B
 
@@ -3335,11 +3336,11 @@ Solution Objective value: (277,)
 
  variable name: I_up_137_LION-A
 
- variable name: I_up_137_LION-B variable start: 1170 variable end: 1195
+ variable name: I_up_137_LION-B
 
  variable name: I_up_137_GUAM-A
 
- variable name: I_up_137_GUAM-B
+ variable name: I_up_137_GUAM-B variable start: 1170 variable end: 1195
 
  variable name: I_up_137_REEF-A
 
@@ -3359,7 +3360,7 @@ Solution Objective value: (277,)
 
  variable name: I_up_139_HULA-A
 
- variable name: I_up_139_HULA-B
+ variable name: I_up_139_HULA-B variable start: 1185 variable end: 1205
 
  variable name: I_up_139_COOK-A
 
@@ -3367,13 +3368,13 @@ Solution Objective value: (277,)
 
  variable name: I_up_139_GUAM-A
 
- variable name: I_up_139_GUAM-B variable start: 1185 variable end: 1205
+ variable name: I_up_139_GUAM-B
 
  variable name: I_up_140_INDI-A
 
- variable name: I_up_140_LION-A variable start: 1193 variable end: 1218
+ variable name: I_up_140_LION-A
 
- variable name: I_up_140_LION-B
+ variable name: I_up_140_LION-B variable start: 1193 variable end: 1218
 
  variable name: I_up_140_REEF-A
 
@@ -3381,7 +3382,7 @@ Solution Objective value: (277,)
 
  variable name: I_up_141_POGO-B
 
- variable name: I_up_141_POGO-C variable start: 1220 variable end: 1285
+ variable name: I_up_141_POGO-C
 
  variable name: I_up_141_HULA-A
 
@@ -3405,7 +3406,7 @@ Solution Objective value: (277,)
 
  variable name: I_up_141_GUAM-B
 
- variable name: I_up_141_PIKE-A
+ variable name: I_up_141_PIKE-A variable start: 1220 variable end: 1285
 
  variable name: I_up_141_REEF-A
 
@@ -3425,7 +3426,7 @@ Solution Objective value: (277,)
 
  variable name: I_up_143_POGO-B
 
- variable name: I_up_143_POGO-C
+ variable name: I_up_143_POGO-C variable start: 1240 variable end: 1280
 
  variable name: I_up_143_HULA-A
 
@@ -3449,7 +3450,7 @@ Solution Objective value: (277,)
 
  variable name: I_up_143_GUAM-B
 
- variable name: I_up_143_PIKE-A variable start: 1240 variable end: 1280
+ variable name: I_up_143_PIKE-A
 
  variable name: I_up_144_INDI-A
 
@@ -3471,13 +3472,13 @@ Solution Objective value: (277,)
 
  variable name: I_up_145_INDI-A
 
- variable name: I_up_145_BOSS-A
+ variable name: I_up_145_BOSS-A variable start: 1250 variable end: 1270
 
  variable name: I_up_145_BOSS-B
 
  variable name: I_up_145_LION-A
 
- variable name: I_up_145_LION-B variable start: 1250 variable end: 1270
+ variable name: I_up_145_LION-B
 
  variable name: I_up_145_PIKE-A
 
@@ -3507,9 +3508,9 @@ Solution Objective value: (277,)
 
  variable name: I_up_147_INDI-A
 
- variable name: I_up_147_BOSS-A variable start: 1265 variable end: 1320
+ variable name: I_up_147_BOSS-A
 
- variable name: I_up_147_BOSS-B
+ variable name: I_up_147_BOSS-B variable start: 1265 variable end: 1320
 
  variable name: I_up_147_LION-A
 
@@ -3541,7 +3542,7 @@ Solution Objective value: (277,)
 
  variable name: I_up_149_POGO-B
 
- variable name: I_up_149_POGO-C variable start: 1305 variable end: 1485
+ variable name: I_up_149_POGO-C
 
  variable name: I_up_149_HULA-A
 
@@ -3563,7 +3564,7 @@ Solution Objective value: (277,)
 
  variable name: I_up_149_GUAM-A
 
- variable name: I_up_149_GUAM-B
+ variable name: I_up_149_GUAM-B variable start: 1305 variable end: 1485
 
  variable name: I_up_149_PIKE-A
 
@@ -3667,11 +3668,11 @@ Solution Objective value: (277,)
 
  variable name: I_up_153_REEF-A
 
- variable name: I_up_154_INDI-A variable start: 1350 variable end: 1415
+ variable name: I_up_154_INDI-A
 
  variable name: I_up_154_LION-A
 
- variable name: I_up_154_LION-B
+ variable name: I_up_154_LION-B variable start: 1350 variable end: 1415
 
  variable name: I_up_154_REEF-A
 
@@ -3693,9 +3694,9 @@ Solution Objective value: (277,)
 
  variable name: I_up_156_BOSS-A
 
- variable name: I_up_156_BOSS-B
+ variable name: I_up_156_BOSS-B variable start: 1365 variable end: 1385
 
- variable name: I_up_156_LION-A variable start: 1365 variable end: 1385
+ variable name: I_up_156_LION-A
 
  variable name: I_up_156_LION-B
 
@@ -3705,17 +3706,17 @@ Solution Objective value: (277,)
 
  variable name: I_up_157_LION-A
 
- variable name: I_up_157_LION-B variable start: 1365 variable end: 1400
+ variable name: I_up_157_LION-B
 
- variable name: I_up_157_PIKE-A
+ variable name: I_up_157_PIKE-A variable start: 1365 variable end: 1400
 
  variable name: I_up_158_INDI-A
 
- variable name: I_up_158_BOSS-A variable start: 1380 variable end: 1400
+ variable name: I_up_158_BOSS-A
 
  variable name: I_up_158_BOSS-B
 
- variable name: I_up_158_LION-A
+ variable name: I_up_158_LION-A variable start: 1380 variable end: 1400
 
  variable name: I_up_158_LION-B
 
@@ -3723,7 +3724,7 @@ Solution Objective value: (277,)
 
  variable name: I_up_159_POGO-B
 
- variable name: I_up_159_POGO-C
+ variable name: I_up_159_POGO-C variable start: 1380 variable end: 1430
 
  variable name: I_up_159_HULA-A
 
@@ -3747,15 +3748,15 @@ Solution Objective value: (277,)
 
  variable name: I_up_159_GUAM-B
 
- variable name: I_up_159_PIKE-A variable start: 1380 variable end: 1430
+ variable name: I_up_159_PIKE-A
 
  variable name: I_up_160_INDI-A
 
- variable name: I_up_160_LION-A variable start: 1395 variable end: 1430
+ variable name: I_up_160_LION-A
 
  variable name: I_up_160_LION-B
 
- variable name: I_up_160_GUAM-A
+ variable name: I_up_160_GUAM-A variable start: 1395 variable end: 1430
 
  variable name: I_up_160_GUAM-B
 
@@ -3793,21 +3794,21 @@ Solution Objective value: (277,)
 
  variable name: I_up_162_LION-A
 
- variable name: I_up_162_LION-B variable start: 1405 variable end: 1430
+ variable name: I_up_162_LION-B
 
  variable name: I_up_162_GUAM-A
 
  variable name: I_up_162_GUAM-B
 
- variable name: I_up_162_PIKE-A
+ variable name: I_up_162_PIKE-A variable start: 1405 variable end: 1430
 
  variable name: I_up_162_REEF-A
 
  variable name: I_up_163_INDI-A
 
- variable name: I_up_163_LION-A
+ variable name: I_up_163_LION-A variable start: 1410 variable end: 1435
 
  variable name: I_up_163_LION-B
 
- variable name: I_up_163_REEF-A variable start: 1410 variable end: 1435
+ variable name: I_up_163_REEF-A
 

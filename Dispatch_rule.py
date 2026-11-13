@@ -1,19 +1,20 @@
-# Dispatch rule for the AFIT satellite range scheduling problem: earliest end time first.
+# Dispatch rule for the AFIT satellite range scheduling problem: Earliest Deadline First (EDF)
+# with earliest-feasible insertion (report Section 3, Algorithm 1).
 #
-#   1. Order the operations in ascending order of end time, e_i.
-#   2. Pick the first operation, o, and schedule it.
-#   3. Remove o and all the operations that overlap with o from the list.
-#   4. If the list is empty, you are done. If not, go to step 2.
+#   1. Sort requests by deadline E_ra ascending; break ties by the shorter window E_ra - S_ra,
+#      then by request ID.
+#   2. For each request in that order, on each candidate antenna (increasing index), find the
+#      earliest start t >= S_ra - Q_ra such that the block [t, t + P_ra + Q_ra) fits in an idle
+#      gap of that antenna and t + P_ra + Q_ra <= E_ra.
+#   3. Assign the request to the antenna with the smallest t (ties: lowest antenna index),
+#      or leave it unscheduled if no antenna has a feasible t. A request is never moved
+#      after it has been placed.
 #
-# In this problem:
-#   - an operation is one (request r, antenna a) pair, i.e. one row of the data file
-#   - each operation has fixed times at its earliest start: turnaround then task, [S - Q, S + P)
-#   - its end time is e = S + P
-#   - an operation overlaps o if it is on the same antenna and its interval intersects o's,
-#     or if it belongs to the same request (each request is scheduled at most once)
+# Since E_ra and S_ra can differ by antenna (day 12), a request's deadline is its earliest
+# E_ra over its candidate antennas, and its window length is its shortest E_ra - S_ra.
 
 ## Imports
-import os, platform, time
+import os, platform, time, bisect
 import psutil
 from Instance_reader import *
 
@@ -40,26 +41,54 @@ def build_options(data):
     return opts, opt_of
 
 
-def eet_dispatch(opts):
-    '''
-    Earliest end time first. Returns assign {r: (a, start)}.
-    Operations are visited in end-time order, so an operation overlaps something already scheduled
-    on antenna a exactly when it starts before the end of the last operation scheduled on a.
-    Skipping those operations is the same as removing them from the list in step 3.
-    '''
-    # step 1: all operations, fixed at their earliest start, sorted by end time (ties: earlier start)
-    ops = sorted((lo + L, lo, r, a) for r in range(len(opts)) for (a, lo, hi, L) in opts[r])
+def edf_order(data):
+    '''Algorithm 1, line 1: requests sorted by deadline, then shorter window, then request ID.'''
+    S_ra, E_ra, A_r = data["S_ra"], data["E_ra"], data["A_r"]
+    def key(r):
+        deadline = min(E_ra[r][a] for a in A_r[r])
+        window = min(E_ra[r][a] - S_ra[r][a] for a in A_r[r])
+        return (deadline, window, r)
+    return sorted(range(len(data["R"])), key=key)
 
-    assign = {}    # r -> (a, start)
-    last_end = {}  # a -> end time of the last operation scheduled on antenna a
-    for e, s, r, a in ops:                          # step 2: next operation in the list
-        if r in assign:                             # step 3: removed, request already scheduled
+
+def earliest_fit(schedule, lo, hi, L):
+    '''
+    Algorithm 1, line 7: earliest start t >= lo such that [t, t + L) is disjoint from every block in
+    schedule (a list of (start, end) sorted by start). Returns None if t would exceed hi = E - P - Q,
+    i.e. the block would end after the window closes (line 8).
+    '''
+    prev_end = float("-inf")
+    for (s, e) in schedule:
+        if e <= lo:  # block ends before we could start; only its end matters
+            prev_end = e
             continue
-        if s < last_end.get(a, float("-inf")):      # step 3: removed, overlaps an operation on antenna a
-            continue
-        assign[r] = (a, s)                          # schedule it
-        last_end[a] = e
-    return assign                                   # step 4: list exhausted
+        t = max(lo, prev_end)
+        if t > hi:
+            return None
+        if t + L <= s:  # fits in the idle gap before this block
+            return t
+        prev_end = e
+    t = max(lo, prev_end)
+    return t if t <= hi else None
+
+
+def edf_dispatch(order, opts, n_antennas):
+    '''Algorithm 1, lines 2-14. Returns assign {r: (a, start)} and the unscheduled requests U.'''
+    sched = [[] for _ in range(n_antennas)]  # occupied blocks per antenna
+    assign, U = {}, []
+    for r in order:
+        best = None  # (t*, a*)
+        for (a, lo, hi, L) in sorted(opts[r]):  # candidate antennas in increasing index
+            t = earliest_fit(sched[a], lo, hi, L)
+            if t is not None and (best is None or t < best[0]):  # strict <: ties keep the lowest index
+                best = (t, a, L)
+        if best is not None:
+            t, a, L = best
+            bisect.insort(sched[a], (t, t + L))  # contact starts at t + Q_ra
+            assign[r] = (a, t)
+        else:
+            U.append(r)
+    return assign, U
 
 
 def verify(assign, opt_of):
@@ -77,7 +106,7 @@ def verify(assign, opt_of):
 
 def dispatch_heuristic(problem_data:str, write_results_to_file:bool = False, combine_data:bool = False):
     '''
-    Takes in a problem instance, schedules it with the earliest-end-time dispatch rule,
+    Takes in a problem instance, schedules it with the EDF dispatch rule (Algorithm 1),
     and returns the solution, run info, and machine info.
     '''
     start_time = time.time()
@@ -87,14 +116,15 @@ def dispatch_heuristic(problem_data:str, write_results_to_file:bool = False, com
     opts, opt_of = build_options(data)
 
     # dispatch rule
-    assign = eet_dispatch(opts)
+    assign, U = edf_dispatch(edf_order(data), opts, len(data["A"]))
     verify(assign, opt_of)
 
     info = {
-        "Rule": "EarliestEndTime",
+        "Rule": "EarliestDeadlineFirst",
         "Objective": len(assign),
         "NumberOfRequests": len(data["R"]),
-        "NumberOfOperations": sum(len(o) for o in opts),
+        "Unscheduled": len(U),
+        "NumberOfRequestAntennaPairs": sum(len(o) for o in opts),
         "SolveTime": round(time.time() - start_time, 3),
     }
 
